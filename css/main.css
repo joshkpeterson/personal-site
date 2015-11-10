@@ -95,8 +95,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+    margin: 20px;
+}
 
+h1 {
+    /*font-family: 'Blenny';*/
+    font-size: 24px;
+}
 
+ul a {
+
+}
 
 
 

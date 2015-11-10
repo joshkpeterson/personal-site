@@ -95,18 +95,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.container {
-    margin: 20px;
+   html, body
+   {
+       height: 100%;
+   }
+
+.container--outer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.container--inner{
+    background: black;
+    color: white;
+    padding: 20px;
 }
 
 h1 {
-    /*font-family: 'Blenny';*/
     font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 ul a {
-
+    color: white;
 }
+
+@media only screen and (min-width: 640px) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
+
 
 
 

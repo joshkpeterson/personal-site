@@ -117,5 +117,38 @@
     window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
   }
 
+  // $('.print-coords').html('mic check');
+
+
+  if ("geolocation" in navigator) {
+    /* geolocation is available */
+    // console.log('yep');
+
+    // navigator.geolocation.getCurrentPosition(function(position) {
+    //   console.log(position);
+    //   console.log(position.coords.latitude, position.coords.longitude);
+    // });
+
+    function geo_success(position) {
+      $('.print-coords--now').html(position.coords.latitude + ', ' + position.coords.longitude);
+      $('.print-coords').val($('.print-coords').val() + position.coords.latitude + ', ' + position.coords.longitude + '\n');
+    }
+
+    function geo_error() {
+      alert("Sorry, no position available.");
+    }
+
+    var geo_options = {
+      enableHighAccuracy: true, 
+      maximumAge        : 30000, 
+      timeout           : 27000
+    };
+
+    var wpid = navigator.geolocation.watchPosition(geo_success, geo_error, geo_options);
+  } else {
+    console.log('nope geolocation available on this device');
+    /* geolocation IS NOT available */
+  }
+
 
 }(jQuery, window));

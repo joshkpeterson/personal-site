@@ -23,14 +23,16 @@
 
 
     <body>
-      <h3>Drag or re-shape for coordinates to display below</h3>
-
-      
-      <div id="map-canvas"></div>
-      <div class="lngLat"><span class="one">Lat</span><span class="two">,Lng</span></div>
+        <h3>Drag or re-shape for coordinates to display below</h3>
+        <!-- <h1 class="print-coords"></h1> -->
+        <div id="map-canvas"></div>
+        <div class="lngLat"><span class="one">Lat</span><span class="two">,Lng</span></div>
+        <button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copy to Clipboard</button>
+        <textarea id="info"></textarea>
+        <h1 class="print-coords--now"></h3>
+        <textarea class="print-coords"></textarea>
     </body>
-    <button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copy to Clipboard</button>
-    <textarea id="info"></textarea>
+
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDrCxgue_zCh-aCS3ud4In1cFJgh2AWM4I"></script>
     <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.2.4.min.js"><\/script>')</script>

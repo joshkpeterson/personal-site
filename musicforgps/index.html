@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Music for GPS</title>
+        <meta name="description" content="Josh Peterson eyeo Music for GPS media art project">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://use.typekit.net/cuk7nzj.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    </head>
+<!--     <body>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+    </body> -->
+
+
+    <body>
+      <h3>Drag or re-shape for coordinates to display below</h3>
+
+      
+      <div id="map-canvas"></div>
+      <div class="lngLat"><span class="one">Lat</span><span class="two">,Lng</span></div>
+    </body>
+    <button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copy to Clipboard</button>
+    <textarea id="info"></textarea>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDrCxgue_zCh-aCS3ud4In1cFJgh2AWM4I"></script>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+    <script src="js/main.js"></script>
+</html>

@@ -11,44 +11,53 @@
     return newNum;
   }
 
-  var environment = flock.init();
-
-  var synth = flock.synth({
-      synthDef: {
-          ugen: "flock.ugen.filter.moog",
-          cutoff: {
-              ugen: "flock.ugen.sinOsc",
-              id: "cutoff",
-              freq: 1/4,
-              mul: 5000,
-              add: 7000
-          },
-          resonance: {
-              ugen: "flock.ugen.sinOsc",
-              id: "resonance",
-              freq: 1/4,
-              mul: 1.5,
-              add: 1.5
-          },
-          source: {
-              ugen: "flock.ugen.lfSaw",
-              freq: {
-                  ugen: "flock.ugen.sequence",
-                  id: "source",
-                  freq: 1/8,
-                  loop: 1,
-                  list: [220, 220 * 5/4, 220, 220 * 5/2, 220 * 4/3, 110],
-                  options: {
-                      interpolation: "linear"
+  // var environment = flock.init();
+  var synth;
+  $('#startButton').one("click", function () {
+      var environment = flock.init();
+      
+      synth = flock.synth({
+          synthDef: {
+              ugen: "flock.ugen.filter.moog",
+              cutoff: {
+                  ugen: "flock.ugen.sinOsc",
+                  id: "cutoff",
+                  freq: 1/4,
+                  mul: 5000,
+                  add: 7000
+              },
+              resonance: {
+                  ugen: "flock.ugen.sinOsc",
+                  id: "resonance",
+                  freq: 1/4,
+                  mul: 1.5,
+                  add: 1.5
+              },
+              source: {
+                  ugen: "flock.ugen.lfSaw",
+                  freq: {
+                      ugen: "flock.ugen.sequence",
+                      id: "source",
+                      freq: 1/8,
+                      loop: 1,
+                      list: [220, 220 * 5/4, 220, 220 * 5/2, 220 * 4/3, 110],
+                      options: {
+                          interpolation: "linear"
+                      }
                   }
-              }
-          },
-          mul: 0.1
-      }
+              },
+              mul: 0.1
+          }
+      });
+
+      environment.start();
   });
+
+
+  
         
 
-  environment.start();
+  // environment.start();
 
 
   // var testPoint = new google.maps.LatLng( , );

@@ -158,37 +158,38 @@
         $('.print-coords--now').html(position.coords.latitude + ', ' + position.coords.longitude);
         $('.print-coords').val($('.print-coords').val() + position.coords.latitude + ', ' + position.coords.longitude + '\n');
       
-        if (count === 1) {
+        if (count === 4) {
           startLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
+        } else if (count > 4) {
+          // For test
+          // currentLocation = new google.maps.LatLng(position.coords.latitude + (Math.random() * 0.1), position.coords.longitude);
+          currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+
+
+          oldDistance = distance;
+
+          // For test
+          // distance += 1;
+
+          // For real
+          distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(startLocation, currentLocation));
+        
+          $('.print-distance').html('Distance from start: ' + distance);
+
+          if (play) {
+            synth.set({
+                "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
+                "cutoff.mul": distance.map(0, 50, 5000, 100),
+                "cutoff.add": distance.map(0, 50, 7000, 2000),
+                "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
+                "resonance.add": distance.map(0, 50, 1.5, 5.5),
+                "source.freq": distance.map(0, 50, 0.0000125, 100)
+            });
+          }
+
+          count +=1;
         }
-        // For test
-        // currentLocation = new google.maps.LatLng(position.coords.latitude + (Math.random() * 0.1), position.coords.longitude);
-        currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-
-
-
-        oldDistance = distance;
-
-        // For test
-        // distance += 1;
-
-        // For real
-        distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(startLocation, currentLocation));
-      
-        $('.print-distance').html('Distance from start: ' + distance);
-
-        if (play) {
-          synth.set({
-              "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
-              "cutoff.mul": distance.map(0, 50, 5000, 100),
-              "cutoff.add": distance.map(0, 50, 7000, 2000),
-              "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
-              "resonance.add": distance.map(0, 50, 1.5, 5.5),
-              "source.freq": distance.map(0, 50, 0.0000125, 100)
-          });
-        }
-
-        count +=1;
 
         // RAMPING - nice to have
         // $('.print-distance').prop('number', oldDistance).animateNumber(

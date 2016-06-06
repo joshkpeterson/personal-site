@@ -188,8 +188,10 @@
             });
           }
 
-          count +=1;
         }
+        count +=1;
+
+
 
         // RAMPING - nice to have
         // $('.print-distance').prop('number', oldDistance).animateNumber(

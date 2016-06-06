@@ -1,10 +1,8 @@
 (function($, window, undefined) {
-  // var latLongs = [
-  //   [ 44.958954, -93.275488],
-  //   [ 44.958913, -93.275776],
-  //   [ 44.958931, -93.275783],
-  //   [ 44.959029, -93.27572]
-  // ];
+  var latLongs = 
+    [ 
+      [44.967870, -93.288458]
+    ];
 
   Number.prototype.map = function ( in_min , in_max , out_min , out_max ) {
     var _this = this;
@@ -15,94 +13,51 @@
 
   var environment = flock.init();
 
-  // var synth = flock.synth({
-  //     synthDef: {
-  //         ugen: "flock.ugen.filter.moog",
-  //         cutoff: {
-  //             ugen: "flock.ugen.sinOsc",
-  //             freq: 1/4,
-  //             mul: 5000,
-  //             add: 7000
-  //         },
-  //         resonance: {
-  //             ugen: "flock.ugen.sinOsc",
-  //             freq: 1/4,
-  //             mul: 1.5,
-  //             add: 1.5
-  //         },
-  //         source: {
-  //             ugen: "flock.ugen.lfSaw",
-  //             freq: {
-  //                 ugen: "flock.ugen.sequence",
-  //                 freq: 1/8,
-  //                 loop: 1,
-  //                 list: [220, 220 * 5/4, 220, 220 * 5/2, 220 * 4/3, 110],
-  //                 options: {
-  //                     interpolation: "linear"
-  //                 }
-  //             }
-  //         },
-  //         mul: 0.1
-  //     }
-  // });
-var synth = flock.synth({
-    synthDef: {
-        ugen: "flock.ugen.filter.moog",
-        cutoff: {
-            ugen: "flock.ugen.sinOsc",
-            id: "cutoff",
-            freq: 1/4,
-            mul: 5000,
-            add: 7000
-        },
-        resonance: {
-            ugen: "flock.ugen.sinOsc",
-            id: "resonance",
-            freq: 1/4,
-            mul: 1.5,
-            add: 1.5
-        },
-        source: {
-            ugen: "flock.ugen.lfSaw",
-            freq: {
-                ugen: "flock.ugen.sequence",
-                id: "source",
-                freq: 1/8,
-                loop: 1,
-                list: [220, 220 * 5/4, 220, 220 * 5/2, 220 * 4/3, 110],
-                options: {
-                    interpolation: "linear"
-                }
-            }
-        },
-        mul: 0.1
-    }
-});
-      
+  var synth = flock.synth({
+      synthDef: {
+          ugen: "flock.ugen.filter.moog",
+          cutoff: {
+              ugen: "flock.ugen.sinOsc",
+              id: "cutoff",
+              freq: 1/4,
+              mul: 5000,
+              add: 7000
+          },
+          resonance: {
+              ugen: "flock.ugen.sinOsc",
+              id: "resonance",
+              freq: 1/4,
+              mul: 1.5,
+              add: 1.5
+          },
+          source: {
+              ugen: "flock.ugen.lfSaw",
+              freq: {
+                  ugen: "flock.ugen.sequence",
+                  id: "source",
+                  freq: 1/8,
+                  loop: 1,
+                  list: [220, 220 * 5/4, 220, 220 * 5/2, 220 * 4/3, 110],
+                  options: {
+                      interpolation: "linear"
+                  }
+              }
+          },
+          mul: 0.1
+      }
+  });
+        
 
   environment.start();
 
 
-
-  var latLongs = 
-    [ 
-      [44.95907,-93.27547],
-      [44.95886,-93.27546],
-      [44.95888,-93.27582],
-      [44.95894,-93.27582],
-      [44.95911,-93.27583]
-    ];
-
-  console.log(latLongs);
-
-  var testPoint = new google.maps.LatLng(44.959003 , -93.275644);
-  var testPoint2 = new google.maps.LatLng(44.967895, -93.275104);
-
+  // var testPoint = new google.maps.LatLng( , );
+  // var testPoint2 = new google.maps.LatLng(, );
 
 
 	//var myPolygon;
-  // Map Center
-  var myLatLng = new google.maps.LatLng(44.959142, -93.275104);
+  // Map Center = Walker Art Center
+  var myLatLng = new google.maps.LatLng(44.967870 , -93.288458);
   // General Options
   var mapOptions = {
     zoom: 17,
@@ -110,8 +65,6 @@ var synth = flock.synth({
     mapTypeId: google.maps.MapTypeId.RoadMap
   };
   var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
-
-
 
 
   var polygonCoords = [];
@@ -196,20 +149,19 @@ var synth = flock.synth({
       
         $('.print-distance').html('Distance from start: ' + distance);
 
+        synth.set({
+            "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
+            "cutoff.mul": distance.map(0, 50, 5000, 100),
+            "cutoff.add": distance.map(0, 50, 7000, 2000),
+            "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
+            "resonance.add": distance.map(0, 50, 1.5, 5.5),
+            "source.freq": distance.map(0, 50, 0.0000125, 100)
+        });
 
-          synth.set({
-              "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
-              "cutoff.mul": distance.map(0, 50, 5000, 100),
-              "cutoff.add": distance.map(0, 50, 7000, 2000),
-              "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
-              "resonance.add": distance.map(0, 50, 1.5, 5.5),
-              "source.freq": distance.map(0, 50, 0.0000125, 100)
-              // "source.freq.freq": 10
-          });
-
-      count +=1;
+        count +=1;
 
 
+        // RAMPING - nice to have
         // $('.print-distance').prop('number', oldDistance).animateNumber(
         //   {
         //     number: distance,
@@ -226,30 +178,21 @@ var synth = flock.synth({
 
         //       console.log(floored_number);
 
-        //       synth.set({
-        //           "cutoff.freq": floored_number.map(0, 50, 0.25, 0.03125),
-        //           "cutoff.mul": floored_number.map(0, 50, 5000, 100),
-        //           "cutoff.add": floored_number.map(0, 50, 7000, 2000),
-        //           "resonance.freq": floored_number.map(0, 50, 0.25, 0.03125),
-        //           "resonance.add": floored_number.map(0, 50, 1.5, 5.5),
-        //           "source.freq.freq": floored_number.map(0, 50, 0.125, 1000),
-        //       });
-        //       // console.log({
-        //       //     "cutoff.freq": floored_number.map(0, 50, 0.25, 0.03125),
-        //       //     "cutoff.mul": floored_number.map(0, 50, 5000, 100),
-        //       //     "cutoff.add": floored_number.map(0, 50, 7000, 2000),
-        //       //     "resonance.freq": floored_number.map(0, 50, 0.25, 0.03125),
-        //       //     "resonance.add": floored_number.map(0, 50, 1.5, 5.5),
-        //       //     "source.freq.freq": floored_number.map(0, 50, 0.125, 1000),
-        //       // });
+        // synth.set({
+        //     "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
+        //     "cutoff.mul": distance.map(0, 50, 5000, 100),
+        //     "cutoff.add": distance.map(0, 50, 7000, 2000),
+        //     "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
+        //     "resonance.add": distance.map(0, 50, 1.5, 5.5),
+        //     "source.freq": distance.map(0, 50, 0.0000125, 100)
+        // });
 
         //       target.text(floored_number);
         //       // console.log(floored_number);
 
-
         //     }
         //   },
-        //   5000
+        //   500
         // );
 
       }

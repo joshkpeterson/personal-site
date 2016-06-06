@@ -165,11 +165,14 @@
         // currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
 
-        oldDistance = distance;
-        // distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(startLocation, currentLocation));
-        // console.log(distance);
 
-        distance += 1;
+        oldDistance = distance;
+
+        // For test
+        // distance += 1;
+
+        // For real
+        distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(startLocation, currentLocation));
       
         $('.print-distance').html('Distance from start: ' + distance);
 
@@ -185,7 +188,6 @@
         }
 
         count +=1;
-
 
         // RAMPING - nice to have
         // $('.print-distance').prop('number', oldDistance).animateNumber(

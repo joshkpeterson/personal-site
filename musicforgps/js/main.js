@@ -161,8 +161,9 @@
         if (count === 1) {
           startLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
         }
-        currentLocation = new google.maps.LatLng(position.coords.latitude + (Math.random() * 0.1), position.coords.longitude);
-        // currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+        // For test
+        // currentLocation = new google.maps.LatLng(position.coords.latitude + (Math.random() * 0.1), position.coords.longitude);
+        currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
 
 

@@ -106,12 +106,34 @@
         if (firstTime) {
           startLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
         }
-        currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+        currentLocation = new google.maps.LatLng(position.coords.latitude + (Math.random() * 0.1), position.coords.longitude);
 
+        oldDistance = distance;
         distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(startLocation, currentLocation));
         console.log(distance);
       
-        $('.print-distance').html('Distance from start: ' + distance);
+        // $('.print-distance').html('Distance from start: ' + distance);
+
+        $('.print-distance').prop('number', oldDistance).animateNumber(
+          {
+            number: distance,
+            // color: 'green', // require jquery.color
+            // 'font-size': '50px',
+
+            // easing: 'easeInQuad', // require jquery.easing
+
+            // optional custom step function
+            // using here to keep '%' sign after number
+            numberStep: function(now, tween) {
+              var floored_number = Math.floor(now),
+                  target = $(tween.elem);
+
+              target.text(floored_number);
+              // console.log(floored_number);
+            }
+          },
+          500
+        );
 
       }
 

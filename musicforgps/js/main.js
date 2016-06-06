@@ -12,9 +12,14 @@
   }
 
   // var environment = flock.init();
-  var synth;
-  $('#startButton').one("click", function () {
-      var environment = flock.init();
+  var synth, 
+      environment;
+  var play = false;
+  $('#startButton').on("click", function () {
+
+    if (!play) {
+      play = true;
+      environment = flock.init();
       
       synth = flock.synth({
           synthDef: {
@@ -51,6 +56,16 @@
       });
 
       environment.start();
+      $('#startButton').html('Click for sound OFF');
+
+    } else {
+      play = false;
+      $('#startButton').html('Click for sound ON');
+      environment.stop();
+      // synth.set({"mul": 0.0001});
+      // console.log(environment);
+
+    }
   });
 
 
@@ -158,14 +173,16 @@
       
         $('.print-distance').html('Distance from start: ' + distance);
 
-        synth.set({
-            "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
-            "cutoff.mul": distance.map(0, 50, 5000, 100),
-            "cutoff.add": distance.map(0, 50, 7000, 2000),
-            "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
-            "resonance.add": distance.map(0, 50, 1.5, 5.5),
-            "source.freq": distance.map(0, 50, 0.0000125, 100)
-        });
+        if (play) {
+          synth.set({
+              "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
+              "cutoff.mul": distance.map(0, 50, 5000, 100),
+              "cutoff.add": distance.map(0, 50, 7000, 2000),
+              "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
+              "resonance.add": distance.map(0, 50, 1.5, 5.5),
+              "source.freq": distance.map(0, 50, 0.0000125, 100)
+          });
+        }
 
         count +=1;
 

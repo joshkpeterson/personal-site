@@ -18,7 +18,8 @@
   console.log(latLongs);
 
   var testPoint = new google.maps.LatLng(44.959003 , -93.275644);
-  // var testPoint = new google.maps.LatLng(44.967895, -93.275104);
+  var testPoint2 = new google.maps.LatLng(44.967895, -93.275104);
+
 
 
 	//var myPolygon;
@@ -59,7 +60,10 @@
   google.maps.event.addListener(myPolygon.getPath(), "set_at", getPolygonCoords);
 
   google.maps.event.addListenerOnce(map, 'tilesloaded', function(){
-      console.log(check_is_in_or_out(testPoint));
+      // console.log(check_is_in_or_out(testPoint));
+      // console.log(Math.floor(google.maps.geometry.spherical.computeDistanceBetween(testPoint, testPoint2)));
+
+      setupGPStests();
   });
 
   //Display Coordinates below map
@@ -79,36 +83,54 @@
 
   // $('.print-coords').html('mic check');
 
+  function setupGPStests() {
 
-  // if ("geolocation" in navigator) {
-  //   /* geolocation is available */
-  //   // console.log('yep');
+    if ("geolocation" in navigator) {
+      /* geolocation is available */
+      // console.log('yep');
 
-  //   // navigator.geolocation.getCurrentPosition(function(position) {
-  //   //   console.log(position);
-  //   //   console.log(position.coords.latitude, position.coords.longitude);
-  //   // });
+      // navigator.geolocation.getCurrentPosition(function(position) {
+      //   console.log(position);
+      //   console.log(position.coords.latitude, position.coords.longitude);
+      // });
 
-  //   function geo_success(position) {
-  //     $('.print-coords--now').html(position.coords.latitude + ', ' + position.coords.longitude);
-  //     $('.print-coords').val($('.print-coords').val() + position.coords.latitude + ', ' + position.coords.longitude + '\n');
-  //   }
+      var currentLocation;
+      var startLocation;
+      var firstTime = true;
+      var distance = -1;
 
-  //   function geo_error() {
-  //     alert("Sorry, no position available.");
-  //   }
+      function geo_success(position) {
+        $('.print-coords--now').html(position.coords.latitude + ', ' + position.coords.longitude);
+        $('.print-coords').val($('.print-coords').val() + position.coords.latitude + ', ' + position.coords.longitude + '\n');
+      
+        if (firstTime) {
+          startLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
+        }
+        currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
-  //   var geo_options = {
-  //     enableHighAccuracy: true, 
-  //     maximumAge        : 30000, 
-  //     timeout           : 27000
-  //   };
+        distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(startLocation, currentLocation));
+        console.log(distance);
+      
+        $('.print-distance').html('Distance from start: ' + distance);
 
-  //   var wpid = navigator.geolocation.watchPosition(geo_success, geo_error, geo_options);
-  // } else {
-  //   console.log('nope geolocation available on this device');
-  //   /* geolocation IS NOT available */
-  // }
+      }
+
+      function geo_error() {
+        alert("Sorry, no position available.");
+      }
+
+      var geo_options = {
+        enableHighAccuracy: true, 
+        maximumAge        : 30000, 
+        timeout           : 27000
+      };
+
+      var wpid = navigator.geolocation.watchPosition(geo_success, geo_error, geo_options);
+    } else {
+      console.log('nope geolocation available on this device');
+      /* geolocation IS NOT available */
+    }
+  }
 
   function check_is_in_or_out(marker){
     return google.maps.geometry.poly.containsLocation(marker, myPolygon);

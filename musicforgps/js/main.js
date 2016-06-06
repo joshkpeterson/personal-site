@@ -6,6 +6,84 @@
   //   [ 44.959029, -93.27572]
   // ];
 
+  Number.prototype.map = function ( in_min , in_max , out_min , out_max ) {
+    var _this = this;
+    if (this > in_max) { _this = in_max };
+    var newNum = ( _this - in_min ) * ( out_max - out_min ) / ( in_max - in_min ) + out_min;
+    return newNum;
+  }
+
+  var environment = flock.init();
+
+  // var synth = flock.synth({
+  //     synthDef: {
+  //         ugen: "flock.ugen.filter.moog",
+  //         cutoff: {
+  //             ugen: "flock.ugen.sinOsc",
+  //             freq: 1/4,
+  //             mul: 5000,
+  //             add: 7000
+  //         },
+  //         resonance: {
+  //             ugen: "flock.ugen.sinOsc",
+  //             freq: 1/4,
+  //             mul: 1.5,
+  //             add: 1.5
+  //         },
+  //         source: {
+  //             ugen: "flock.ugen.lfSaw",
+  //             freq: {
+  //                 ugen: "flock.ugen.sequence",
+  //                 freq: 1/8,
+  //                 loop: 1,
+  //                 list: [220, 220 * 5/4, 220, 220 * 5/2, 220 * 4/3, 110],
+  //                 options: {
+  //                     interpolation: "linear"
+  //                 }
+  //             }
+  //         },
+  //         mul: 0.1
+  //     }
+  // });
+var synth = flock.synth({
+    synthDef: {
+        ugen: "flock.ugen.filter.moog",
+        cutoff: {
+            ugen: "flock.ugen.sinOsc",
+            id: "cutoff",
+            freq: 1/4,
+            mul: 5000,
+            add: 7000
+        },
+        resonance: {
+            ugen: "flock.ugen.sinOsc",
+            id: "resonance",
+            freq: 1/4,
+            mul: 1.5,
+            add: 1.5
+        },
+        source: {
+            ugen: "flock.ugen.lfSaw",
+            freq: {
+                ugen: "flock.ugen.sequence",
+                id: "source",
+                freq: 1/8,
+                loop: 1,
+                list: [220, 220 * 5/4, 220, 220 * 5/2, 220 * 4/3, 110],
+                options: {
+                    interpolation: "linear"
+                }
+            }
+        },
+        mul: 0.1
+    }
+});
+      
+
+  environment.start();
+
+
+
   var latLongs = 
     [ 
       [44.95907,-93.27547],
@@ -96,44 +174,83 @@
 
       var currentLocation;
       var startLocation;
-      var firstTime = true;
+      var count = 1;
       var distance = -1;
 
       function geo_success(position) {
         $('.print-coords--now').html(position.coords.latitude + ', ' + position.coords.longitude);
         $('.print-coords').val($('.print-coords').val() + position.coords.latitude + ', ' + position.coords.longitude + '\n');
       
-        if (firstTime) {
+        if (count === 1) {
           startLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
         }
         currentLocation = new google.maps.LatLng(position.coords.latitude + (Math.random() * 0.1), position.coords.longitude);
+        // currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
 
         oldDistance = distance;
-        distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(startLocation, currentLocation));
-        console.log(distance);
+        // distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(startLocation, currentLocation));
+        // console.log(distance);
+
+        distance += 1;
       
-        // $('.print-distance').html('Distance from start: ' + distance);
+        $('.print-distance').html('Distance from start: ' + distance);
 
-        $('.print-distance').prop('number', oldDistance).animateNumber(
-          {
-            number: distance,
-            // color: 'green', // require jquery.color
-            // 'font-size': '50px',
 
-            // easing: 'easeInQuad', // require jquery.easing
+          synth.set({
+              "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
+              "cutoff.mul": distance.map(0, 50, 5000, 100),
+              "cutoff.add": distance.map(0, 50, 7000, 2000),
+              "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
+              "resonance.add": distance.map(0, 50, 1.5, 5.5),
+              "source.freq": distance.map(0, 50, 0.0000125, 100)
+              // "source.freq.freq": 10
+          });
 
-            // optional custom step function
-            // using here to keep '%' sign after number
-            numberStep: function(now, tween) {
-              var floored_number = Math.floor(now),
-                  target = $(tween.elem);
+      count +=1;
 
-              target.text(floored_number);
-              // console.log(floored_number);
-            }
-          },
-          500
-        );
+
+        // $('.print-distance').prop('number', oldDistance).animateNumber(
+        //   {
+        //     number: distance,
+        //     // color: 'green', // require jquery.color
+        //     // 'font-size': '50px',
+
+        //     // easing: 'easeInQuad', // require jquery.easing
+
+        //     // optional custom step function
+        //     // using here to keep '%' sign after number
+        //     numberStep: function(now, tween) {
+        //       var floored_number = Math.floor(now),
+        //           target = $(tween.elem);
+
+        //       console.log(floored_number);
+
+        //       synth.set({
+        //           "cutoff.freq": floored_number.map(0, 50, 0.25, 0.03125),
+        //           "cutoff.mul": floored_number.map(0, 50, 5000, 100),
+        //           "cutoff.add": floored_number.map(0, 50, 7000, 2000),
+        //           "resonance.freq": floored_number.map(0, 50, 0.25, 0.03125),
+        //           "resonance.add": floored_number.map(0, 50, 1.5, 5.5),
+        //           "source.freq.freq": floored_number.map(0, 50, 0.125, 1000),
+        //       });
+        //       // console.log({
+        //       //     "cutoff.freq": floored_number.map(0, 50, 0.25, 0.03125),
+        //       //     "cutoff.mul": floored_number.map(0, 50, 5000, 100),
+        //       //     "cutoff.add": floored_number.map(0, 50, 7000, 2000),
+        //       //     "resonance.freq": floored_number.map(0, 50, 0.25, 0.03125),
+        //       //     "resonance.add": floored_number.map(0, 50, 1.5, 5.5),
+        //       //     "source.freq.freq": floored_number.map(0, 50, 0.125, 1000),
+        //       // });
+
+        //       target.text(floored_number);
+        //       // console.log(floored_number);
+
+
+        //     }
+        //   },
+        //   5000
+        // );
 
       }
 

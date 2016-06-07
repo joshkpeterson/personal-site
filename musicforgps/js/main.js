@@ -158,9 +158,9 @@
         $('.print-coords--now').html(position.coords.latitude + ', ' + position.coords.longitude);
         $('.print-coords').val($('.print-coords').val() + position.coords.latitude + ', ' + position.coords.longitude + '\n');
       
-        if (count === 4) {
+        if (count === 6) {
           startLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
-        } else if (count > 4) {
+        } else if (count > 6) {
           // For test
           // currentLocation = new google.maps.LatLng(position.coords.latitude + (Math.random() * 0.1), position.coords.longitude);
           currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);

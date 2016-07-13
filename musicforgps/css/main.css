@@ -142,30 +142,26 @@ ul a {
 
 
 
-body {
-  background: #222;
-}
 
 h3 {
   margin: 4px 0;
   padding: 5px 0;
   font-family: arial, sans-serif;
   width: 100%;
-  color: #fff;
 }
 
 a {
   font-family: arial, sans-serif;
-  color: #00B2EE;
-  text-decoration: none;
+  // color: #00B2EE;
+  // text-decoration: none;
 }
 a:hover {
   color: #55d4ff;
 }
 
 #map-canvas {
-  width: auto;
-  height: 500px;
+  width: 50px;
+  height: 50px;
 }
 
 #info {
@@ -192,8 +188,8 @@ a:hover {
   border-radius: 3px;
 }
 
-#info {
-  height: 140px;
+#info, .print-coords {
+  height: 340px;
   float: left;
   margin-bottom: 30px;
   border: solid 2px #eee;
@@ -212,6 +208,14 @@ a:hover {
   width: 270px;
 }
 
+.text-container {
+  padding: 15px;
+  max-width: 700px;
+}
+
+.map-screenshot {
+  width: 100%;
+}
 
 
 /* ==========================================================================

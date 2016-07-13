@@ -4,35 +4,76 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Music for GPS</title>
-        <meta name="description" content="Josh Peterson eyeo Music for GPS media art project">
+        <meta name="description" content="Josh Peterson / Music for GPS">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="shortcut icon" href="favicon.ico">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="https://use.typekit.net/cuk7nzj.js"></script>
-        <script>try{Typekit.load({ async: true });}catch(e){}</script>
     </head>
-<!--     <body>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/main.js"></script>
-    </body> -->
-
-
     <body>
-      <h3>Drag or re-shape for coordinates to display below</h3>
+        <div class="text-container">
 
-      
-      <div id="map-canvas"></div>
-      <div class="lngLat"><span class="one">Lat</span><span class="two">,Lng</span></div>
+            <h1>Press play and start walking</h1>
+            <p>Music will change up to a distance of [some meters away]</p>
+            <p>Requires beings outdoors where there is GPS.</p>
+
+            <button id="startButton">Click for sound ON</button>
+            <!-- <div class="lngLat"><span class="one">Lat</span><span class="two">,Lng</span></div> -->
+            <!-- <button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copy to Clipboard</button>
+            <textarea id="info"></textarea> -->
+            <h1 class="print-coords--now"></h1>
+            <h1 class="print-distance"></h1>
+
+            <p>This was make pretty quick and it might be buggy on your phone. You might have to wait a sec for your GPS location to turn on full blast and/or refresh the page a couple times till you see your location icon in your phone's toolbar. Sorry, hope it works!</p>
+
+            <a href="http://josh-peterson.com">About me</a>
+
+            <hr>
+            <h3>So, how does this work?</h3>
+
+            This web app is computing your current distance from where you were when you opened this page. It’s mapping that distance to a handful of parameters for a digital synth.
+
+            <h3></h3>
+            <h3>Why did I do this?</h3>
+
+            <p>Location-based generative music could be really cool. This is a proof of concept.</p>
+
+            <p>For example, what if you composed music for each city block within a neighborhood? A listener would be able to traverse the neighborhood how they wished, and to experience the piece they'd have to explore and discover the relationship between the actual place and the music. </p>
+
+            <p>How this would probably work is by defining zones, and then you would write the rules for each zone. I’ve started to prototype this and more to come soon.</p>
+
+            <img class="map-screenshot" src="img/map.png">
+
+            <p>(Actually, the inspiration for making this at #Eyeo2016 was that I wanted to make a piece of music you could only listen to if you were inside the James Turrell piece at the Walker. But the piece is closed from the construction. Boo.)</p>
+
+            <p>You could get more granular than a city block though. How about you hear something different when you pass under those trees over there? Or, you could algorithmically generate music for large areas you haven’t even been to, based on city data for example.</p>
+
+            <p>Places have aesthetic qualities that can be really evocative, just like music. We have the technology to put the two together. Also, advances on the horizon in AR, computer vision, generative graphics are going to bring about some pretty exciting interactive art/games that you play in the real world, and sound needs to be a component of this. We might be waiting on headset tech to mature, but we can get going on the sound component of this today.</p>
+
+
+            <h3>How to make this better:</h3>
+
+            <p>- Use phone accelerometer to know when someone’s likely to be traveling by car vs. walking. What if the beat dropped as you got off the bus?</p>
+
+            <p>- Gait detection. Probably possible with phone’s accelerometer. Map the tempo of a song to the rhythm of someone’s steps. These kind of synchronistic relationships between what you’re doing with your body and the music you hear are sort of like what it’s like to plan an instrument. I’m interested to see how it feels.</p>
+
+            <p>- Make better music. I’m new to the library I used for synthesis (flocking.js), and the relationship between location and the synth here is pretty one-to-one.</p>
+
+
+            <a href="http://josh-peterson.com"><h3>Please reach out if you have feedback or want to collaborate with me on this!</h3></a>
+        </div>
+
+
+        <textarea class="print-coords"></textarea>
+        <div id="map-canvas"></div>
     </body>
-    <button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copy to Clipboard</button>
-    <textarea id="info"></textarea>
+
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDrCxgue_zCh-aCS3ud4In1cFJgh2AWM4I"></script>
-    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+    <script src="js/vendor/jquery.animateNumber.min.js"></script>
+    <script src="js/vendor/flocking-all.min.js"></script>
     <script src="js/main.js"></script>
 </html>

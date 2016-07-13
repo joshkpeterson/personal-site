@@ -996,22 +996,22 @@ ul.landing__footer__arrows li:after {
 #slide-1 {
     background: url(../img/nocturnes.jpg) no-repeat center
 }
-// @media (max-width: 680px) {
-//     #contained-image-1,
-//     #slide-1 {
-//         background: url(images/small/maple-001.jpg) no-repeat 18% 50%
-//     }
-// }
-// #contained-image-2,
-// #slide-2 {
-//     background: url(images/maple-002.jpg) no-repeat center
-// }
-// @media (max-width: 680px) {
-//     #contained-image-2,
-//     #slide-2 {
-//         background: url(e82f02/maple-002.jpg) no-repeat center
-//     }
-// }
+@media (max-width: 680px) {
+    #contained-image-1,
+    #slide-1 {
+        background: url(images/small/maple-001.jpg) no-repeat 18% 50%
+    }
+}
+#contained-image-2,
+#slide-2 {
+    background: url(../img/madam.jpg) no-repeat center
+}
+@media (max-width: 680px) {
+    #contained-image-2,
+    #slide-2 {
+        background: url(e82f02/maple-002.jpg) no-repeat center
+    }
+}
 // #contained-image-3,
 // #slide-3 {
 //     background: url(images/wealthsimple-001.jpg) no-repeat center

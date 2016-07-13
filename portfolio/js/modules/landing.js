@@ -147,4 +147,3 @@ $(document).ready(function() {
   carousel.init();
 });
 
-

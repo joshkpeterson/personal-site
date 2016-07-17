@@ -5,7 +5,7 @@ carousel = {
     this.$carousel = $('.js-carousel');
     this.$carouselFrame = $('.js-border');
     this.$contactLink = $('.js-contact-text');
-    this.$dobermanLogo = $('.js-logo');
+    this.$logo = $('.js-logo');
     this.$statusText = $('.js-status-text');
 
     this.$leftArrow = $('.js-left-arrow');
@@ -34,7 +34,7 @@ carousel = {
       self.warpToSlide(self.contactSlideIndex);
     });
 
-    this.$dobermanLogo.on('click', function() {
+    this.$logo.on('click', function() {
       self.warpToSlide(self.introSlideIndex);
     });
 

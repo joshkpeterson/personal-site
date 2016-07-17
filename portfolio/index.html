@@ -8,6 +8,73 @@
 
   <title>Josh Peterson</title>
     <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/royalSlider.css">
+    <!-- <link rel="stylesheet" href="./css/rs-default.css"> -->
+
+    <style>
+        .rsPlayBtn {
+            -webkit-tap-highlight-color:rgba(0,0,0,0.3);
+            width:64px;
+            height:64px;
+            margin-left:-32px;
+            margin-top:-32px;
+            cursor: pointer;
+        }
+        .rsPlayBtnIcon {
+            width:64px;
+            display:block;
+            height:64px;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            transition: .3s;
+
+            background:url(./img/rs-default.png) no-repeat 0 -32px;
+            background-color: #000;
+            background-color: rgba(0,0,0,0.75);
+            *background-color: #000;
+        }
+        .rsPlayBtn:hover .rsPlayBtnIcon {
+            background-color: rgba(0,0,0,0.9);
+        }
+        .rsBtnCenterer {
+            position:absolute;
+            left:50%;
+            top:50%;
+        }
+        .rsCloseVideoBtn {
+            right: 0;
+            top: 0;
+            width: 44px;
+            height: 44px;
+            z-index: 500;
+            position: absolute;
+            cursor: pointer;
+            -webkit-backface-visibility: hidden;
+            -webkit-transform: translateZ(0);
+            
+        }
+        .rsCloseVideoBtn.rsiOSBtn {
+            top: -38px;
+            right: -6px;
+        }
+
+        .rsCloseVideoIcn {
+            margin: 6px;
+            width: 32px;
+            height: 32px;
+            background: url('./img/rs-default.png') -64px 0;
+            background-color: #000;
+            background-color: rgba(0,0,0,0.75);
+            *background-color: #000;
+        }
+        .rsCloseVideoIcn:hover {
+            background-color: rgba(0,0,0,0.9);
+        }
+    </style>
+
     <meta name="description" content="artist, technologist, mangos">
 </head>
 
@@ -35,15 +102,8 @@
     <div class="landing__carousel__border js-border"></div>
         <div class="js-carousel landing__carousel">
             <div class="landing__carousel-item landing__carousel-item--intro js-intro-page">
-                <div class="landing__carousel__intro-text">
-                    <p class="landing__carousel__hero-text intro-hero-margin-bottom">
-                        Some art projects
-                        <br/>
-                   </p>
-                    <p class="landing__carousel__blurb-text">
-                        Since new technologies will shape the creative output of my generation more than any one artwork, I’m fascinated by the poetic potential of emerging software, hardware, and online communities. I believe in art as a form of knowledge, and in art-making as a form of discovery.
-                    </p>
-                </div>
+                <img class="rsImg" src="img/nocturnes.jpg" data-rsVideo="https://vimeo.com/44878206" />
+
             </div>
             
             
@@ -60,16 +120,18 @@
                 
                     
                     
-                    <div
+ <!--                    <div
                             class="landing__carousel-item landing__carousel-item-project cover"
                             data-name="Maple"
                             id="slide-2"
                             style="background-color:#">
-                    </div>
+                    </div> -->
+
+                    <!-- <iframe id="slide-2" src="https://player.vimeo.com/video/174049474?color=ffffff&byline=0&portrait=0" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
                     
-                
+                    <img class="rsImg" src="img/nocturnes.jpg"  data-rsVideo="http://vimeo.com/174049474" />
             
-                
+                <img class="rsImg" src="img/nocturnes.jpg" data-rsVideo="https://www.youtube.com/watch?v=KMwhGE0vd-w" />
                     
                     
                     <div
@@ -205,7 +267,7 @@
     </body>
 
     <script src="./js/vendor/jquery.js"></script>
-    <script src="./js/vendor/jquery.royalslider.min.js"></script>
+    <script src="./js/vendor/jquery.royalslider.custom.min.js"></script>
     
     <script src="./js/app.js"></script>
 </html>

@@ -12,7 +12,7 @@ carousel = {
     this.$rightArrow = $('.js-right-arrow');
 
     this.introSlideIndex = 0;
-    this.contactSlideIndex = 12;
+    this.contactSlideIndex = 10;
     this.statusText = "";
 
     this.bindEvents();

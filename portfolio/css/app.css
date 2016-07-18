@@ -408,6 +408,8 @@ ul {
 }
 a {
     text-decoration: none;
+}
+a:not(.native-color) {
     color: #fff
 }
 h1,
@@ -803,6 +805,11 @@ img.rsImg {
 }
 .text-highlight {
     background-color: rgba(1, 1, 1, 0.6);
+    padding: 10px;
+}
+.text-highlight.light{
+    background-color: rgba(256, 256, 256, 0.8);
+    color: #111;
 }
 @media (max-width: 680px) {
     .landing__carousel__intro-text {
@@ -815,10 +822,6 @@ img.rsImg {
         margin-left: 40px;
         margin-right: 40px;
         bottom: 90px
-    }
-
-    .text-highlight {
-        padding: 10px;
     }
 }
 .landing__carousel__hero-text {
@@ -1100,7 +1103,11 @@ ul.landing__footer__arrows li:after {
     background: url(../img/old-photo.jpg) no-repeat;
     background-position-y: top;
 }
-
+#contained-image-8,
+#slide-8 {
+    background: url(../img/music-for-gps.jpg) no-repeat;
+    background-position: cover;
+}
 // #contained-image-7,
 // #slide-7 {
 //     background: url(images/oscar-001.jpg) no-repeat center

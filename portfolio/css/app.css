@@ -1146,13 +1146,7 @@ ul.landing__footer__arrows li:after {
 //         background: url(images/small/google-001.jpg) no-repeat center
 //     }
 // }
-// #contained-image-11,
-// #slide-11 {
-//     background: url(images/p3-001.jpg) no-repeat center
-// }
-// @media (max-width: 680px) {
-//     #contained-image-11,
-//     #slide-11 {
-//         background: url(images/small/p3-001.jpg) no-repeat center
-//     }
-// }
+.landing__carousel-item-contact {
+    background: url(../img/contact.jpg) no-repeat;
+    background-size: cover;
+}

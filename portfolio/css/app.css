@@ -863,13 +863,13 @@ img.rsImg {
 .landing__footer,
 .landing__header {
     z-index: 1;
-    width: 100%
 }
 .landing__header {
     position: absolute;
     top: 80px;
     left: 80px;
     padding: 0;
+    width: 100%
 }
 @media (max-width: 680px) {
     .landing__header {
@@ -883,6 +883,7 @@ img.rsImg {
     bottom: 80px;
     left: 80px;
     padding: 0;
+    width: 50%
 }
 @media (max-width: 680px) {
     .landing__footer {
@@ -1000,7 +1001,7 @@ ul.landing__footer__arrows li:after {
 }
 #contained-image-1,
 #slide-1 {
-    background: url(../img/nocturnes.jpg) no-repeat center
+    background: #fff no-repeat center
 }
 @media (max-width: 680px) {
     #contained-image-1,

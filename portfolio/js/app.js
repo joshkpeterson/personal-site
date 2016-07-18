@@ -25,7 +25,10 @@ carousel = {
       keyboardNavEnabled: true,
       loop: true,
       slidesSpacing: 0,
-      numImagesToPreload: 50
+      numImagesToPreload: 50,
+      video: {
+		autoHideArrows: true
+      }
     });
 
     this.slider = this.$carousel.data('royalSlider');

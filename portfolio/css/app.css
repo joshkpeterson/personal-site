@@ -904,13 +904,14 @@ img.rsImg {
     top: 80px;
     left: 80px;
     padding: 0;
-    width: 100%
+    width: calc(100% - 160px)
 }
 @media (max-width: 680px) {
     .landing__header {
-        left; 40px;
+        left: 0;
         top: 40px;
-        padding: 0;
+        padding: 0 40px;
+        width: 100%;
     }
 }
 .landing__footer {
@@ -1036,14 +1037,14 @@ ul.landing__footer__arrows li:after {
 }
 
 .landing__carousel-item--intro {
-    background: url(../img/wallingford.jpg) no-repeat;
+    // background: url(../img/wallingford.jpg) no-repeat;
     background-size: cover;
     background-position-y: 80%; 
 }
 
 #contained-image-1,
 #slide-1 {
-        // background: url(../img/wallingford.jpg) no-repeat
+        background: url(../img/wallingford.jpg) no-repeat
 }
 @media (max-width: 680px) {
     #contained-image-1,
@@ -1053,56 +1054,58 @@ ul.landing__footer__arrows li:after {
 }
 #contained-image-2,
 #slide-2 {
-    background: url(../img/madam.jpg) no-repeat center
+    // background: url(../img/madam.jpg) no-repeat center
 }
 @media (max-width: 680px) {
     #contained-image-2,
     #slide-2 {
-        background: url(e82f02/maple-002.jpg) no-repeat center
+        // background: url(e82f02/maple-002.jpg) no-repeat center
     }
 }
-// #contained-image-3,
-// #slide-3 {
-//     background: url(images/wealthsimple-001.jpg) no-repeat center
-// }
-// @media (max-width: 680px) {
-//     #contained-image-3,
-//     #slide-3 {
-//         background: url(images/wealthsimple-001.jpg) no-repeat center
-//     }
-// }
-// #contained-image-4,
-// #slide-4 {
-//     background: url(images/wealthsimple-002.png) no-repeat center
-// }
-// @media (max-width: 680px) {
-//     #contained-image-4,
-//     #slide-4 {
-//         background: url(images/wealthsimple-002.png) no-repeat center
-//     }
-// }
-// #contained-image-5,
-// #slide-5 {
-//     background: url(images/atg-001.jpg) no-repeat center
-// }
-// @media (max-width: 680px) {
-//     #contained-image-5,
-//     #slide-5 {
-//         background: url(images/small/atg-001.jpg) no-repeat center
-//     }
-// }
-// #contained-image-6,
-// #slide-6 {
-//     background: url(images/atg-002.jpg) no-repeat center
-// }
-// @media (max-width: 680px) {
-//     #contained-image-6,
-//     #slide-6 {
-//         background: url(85bde5/atg-002.jpg) no-repeat 50% 100%;
-//         background-size: 172% Auto!important;
-//         background-color: #127bbe
-//     }
-// }
+#contained-image-3,
+#slide-3 {
+    background: url(../img/madam.jpg) no-repeat center;
+    background-position-y: 32%;
+
+}
+@media (max-width: 680px) {
+    #contained-image-3,
+    #slide-3 {
+        background: url(../img/madam.jpg) no-repeat center;
+    }
+}
+#contained-image-4,
+#slide-4 {
+    background: url(../img/madam.jpg) no-repeat center;
+}
+@media (max-width: 680px) {
+    #contained-image-4,
+    #slide-4 {
+        background: url(images/wealthsimple-002.png) no-repeat center
+    }
+}
+#contained-image-5,
+#slide-5 {
+    background: url(images/atg-001.jpg) no-repeat center
+}
+@media (max-width: 680px) {
+    #contained-image-5,
+    #slide-5 {
+        background: url(images/small/atg-001.jpg) no-repeat center
+    }
+}
+#contained-image-6,
+#slide-6 {
+    background: url(images/atg-002.jpg) no-repeat center
+}
+@media (max-width: 680px) {
+    #contained-image-6,
+    #slide-6 {
+        background: url(85bde5/atg-002.jpg) no-repeat 50% 100%;
+        background-size: 172% Auto!important;
+        background-color: #127bbe
+    }
+}
 // #contained-image-7,
 // #slide-7 {
 //     background: url(images/oscar-001.jpg) no-repeat center

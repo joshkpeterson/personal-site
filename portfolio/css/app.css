@@ -935,8 +935,10 @@ img.rsImg {
 }
 @media (max-width: 680px) {
     .landing__footer {
-        left: 40px;
-        bottom: 40px;
+        left: 0;
+        bottom: 0;
+        padding: 0 40px 40px 40px;
+        width: 100%;
     }
 }
 ul.landing__footer__arrows {
@@ -948,6 +950,12 @@ ul.landing__footer__arrows li {
     height: 17px;
     background-size: contain;
     cursor: pointer
+}
+@media (max-width: 680px) {
+    ul.landing__footer__arrows li {
+        width: 20px;
+        height: 22px;
+    }
 }
 ul.landing__footer__arrows li.landing__carousel__left-arrow {
     margin-right: 10px;

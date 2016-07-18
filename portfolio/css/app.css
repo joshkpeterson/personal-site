@@ -443,9 +443,6 @@ p {
         font: 14px Graphik-Regular, sans-serif
     }
 }
-.text-highlight {
-    background-color: rgba(1, 1, 1, 0.6);
-}
 .row-md .col-1 {
     width: 8.33333%;
     float: left
@@ -804,6 +801,9 @@ img.rsImg {
     margin-left: 80px;
     margin-right: 80px
 }
+.text-highlight {
+    background-color: rgba(1, 1, 1, 0.6);
+}
 @media (max-width: 680px) {
     .landing__carousel__intro-text {
         margin-left: 40px;
@@ -811,10 +811,14 @@ img.rsImg {
         bottom: 90px
     }
 
-    .landing__carousel__intro-text {
+    .landing__carousel__slide-text {
         margin-left: 40px;
         margin-right: 40px;
         bottom: 90px
+    }
+
+    .text-highlight {
+        padding: 10px;
     }
 }
 .landing__carousel__hero-text {

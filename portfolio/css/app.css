@@ -409,8 +409,11 @@ ul {
 a {
     text-decoration: none;
 }
-a:not(.native-color) {
+a:not(.link--native-color) {
     color: #fff
+}
+a.link--underline {
+    text-decoration: underline;
 }
 h1,
 h2,

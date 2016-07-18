@@ -793,7 +793,19 @@ img.rsImg {
     margin-left: 80px;
     margin-right: 80px
 }
+.landing__carousel__slide-text {
+    position: absolute;
+    bottom: 140px;
+    margin-left: 80px;
+    margin-right: 80px
+}
 @media (max-width: 680px) {
+    .landing__carousel__intro-text {
+        margin-left: 40px;
+        margin-right: 40px;
+        bottom: 90px
+    }
+
     .landing__carousel__intro-text {
         margin-left: 40px;
         margin-right: 40px;
@@ -806,19 +818,38 @@ img.rsImg {
     position: relative;
     left: -9px
 }
+
+.landing__carousel__title-text {
+    font: 24px Graphik-Medium, sans-serif;
+    line-height: 1;
+    position: relative;
+    // left: -9px
+}
 @media (min-width: 751px) and (max-height: 730px) {
     .landing__carousel__hero-text {
         font: 80px Graphik-Medium, sans-serif
+    }
+
+    .landing__carousel__title-text {
+        font: 24px Graphik-Medium, sans-serif
     }
 }
 @media (min-width: 681px) and (max-width: 1000px) {
     .landing__carousel__hero-text {
         font: 80px Graphik-Medium, sans-serif
     }
+
+    .landing__carousel__title-text {
+        font: 24px Graphik-Medium, sans-serif
+    }
 }
 @media (max-width: 680px) {
     .landing__carousel__hero-text {
         font: 37px Graphik-Medium, sans-serif
+    }
+
+    .landing__carousel__title-text {
+        font: 24px Graphik-Medium, sans-serif
     }
 }
 .landing__carousel__hero-text.contact-hero-margin-bottom {
@@ -842,6 +873,10 @@ img.rsImg {
         letter-spacing: -.025em;
         left: -3px
     }
+
+    // .landing__carousel__detail-text.video {
+    //     display: none;
+    // }
 }
 .landing__carousel__blurb-text {
     line-height: 1.5;
@@ -999,14 +1034,21 @@ ul.landing__footer__arrows li:after {
 .rsSlide {
     -webkit-transform: translate3d(0, 0, 0)
 }
+
+.landing__carousel-item--intro {
+    background: url(../img/wallingford.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: 80%; 
+}
+
 #contained-image-1,
 #slide-1 {
-    background: #fff no-repeat center
+        // background: url(../img/wallingford.jpg) no-repeat
 }
 @media (max-width: 680px) {
     #contained-image-1,
     #slide-1 {
-        background: url(images/small/maple-001.jpg) no-repeat 18% 50%
+        // background: url(images/small/maple-001.jpg) no-repeat 18% 50%
     }
 }
 #contained-image-2,

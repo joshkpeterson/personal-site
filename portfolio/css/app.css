@@ -1159,4 +1159,5 @@ ul.landing__footer__arrows li:after {
 .landing__carousel-item-contact {
     background: url(../img/contact.jpg) no-repeat;
     background-size: cover;
+    background-position-x: 63%; 
 }

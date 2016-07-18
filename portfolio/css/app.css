@@ -443,6 +443,9 @@ p {
         font: 14px Graphik-Regular, sans-serif
     }
 }
+.text-highlight {
+    background-color: rgba(1, 1, 1, 0.6);
+}
 .row-md .col-1 {
     width: 8.33333%;
     float: left
@@ -741,6 +744,8 @@ img.rsImg {
     z-index: 20;
     background: url(blank.gif)
 }
+
+
 .landing__content {
     margin: auto;
     position: relative;
@@ -1064,48 +1069,34 @@ ul.landing__footer__arrows li:after {
 }
 #contained-image-3,
 #slide-3 {
-    background: url(../img/madam.jpg) no-repeat center;
-    background-position-y: 32%;
+    background: url(../img/treemap.jpg) no-repeat center;
+    color: #111;
+}
 
-}
-@media (max-width: 680px) {
-    #contained-image-3,
-    #slide-3 {
-        background: url(../img/madam.jpg) no-repeat center;
-    }
-}
+// #contained-image-3,
+// #slide-3 {
+//     background: url(../img/madam.jpg) no-repeat center;
+//     background-position-y: 32%;
+
+// }
 #contained-image-4,
 #slide-4 {
-    background: url(../img/madam.jpg) no-repeat center;
+    background: url(../img/beacon-wide.jpg) no-repeat;
+    background-position: cover;
 }
-@media (max-width: 680px) {
-    #contained-image-4,
-    #slide-4 {
-        background: url(images/wealthsimple-002.png) no-repeat center
-    }
-}
-#contained-image-5,
-#slide-5 {
-    background: url(images/atg-001.jpg) no-repeat center
-}
-@media (max-width: 680px) {
-    #contained-image-5,
-    #slide-5 {
-        background: url(images/small/atg-001.jpg) no-repeat center
-    }
-}
+
 #contained-image-6,
 #slide-6 {
-    background: url(images/atg-002.jpg) no-repeat center
+    background: url(../img/madam.jpg) no-repeat center;
+    background-position-y: 32%;
 }
-@media (max-width: 680px) {
-    #contained-image-6,
-    #slide-6 {
-        background: url(85bde5/atg-002.jpg) no-repeat 50% 100%;
-        background-size: 172% Auto!important;
-        background-color: #127bbe
-    }
+
+#contained-image-7,
+#slide-7 {
+    background: url(../img/old-photo.jpg) no-repeat;
+    background-position-y: top;
 }
+
 // #contained-image-7,
 // #slide-7 {
 //     background: url(images/oscar-001.jpg) no-repeat center

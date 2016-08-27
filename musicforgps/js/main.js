@@ -96,39 +96,61 @@
   var myLatLng = new google.maps.LatLng(40.73633, -74.00948);
   // General Options
   var mapOptions = {
-    zoom: 17,
+    zoom: 19,
     center: myLatLng,
     mapTypeId: google.maps.MapTypeId.RoadMap
   };
   var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
 
 
-  var polygonCoords = [];
+  var leftPolygonCoords = [];
+  var rightPolygonCoords = [];
   var latLongs = left;
 
-  $.each(latLongs, function(index) {
-    polygonCoords.push(new google.maps.LatLng(latLongs[index][0], latLongs[index][1]))
+  $.each(left, function(index) {
+    leftPolygonCoords.push(new google.maps.LatLng(left[index][0], left[index][1]))
   });
   // Styling & Controls
-  myPolygon = new google.maps.Polygon({
-    paths: polygonCoords,
+  leftPolygon = new google.maps.Polygon({
+    paths: leftPolygonCoords,
     draggable: true, // turn off if it gets annoying
     editable: true,
-    strokeColor: '#FF0000',
+    strokeColor: '#2b6cff',
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: '#FF0000',
+    fillColor: '#2b6cff',
     fillOpacity: 0.35
   });
 
-  myPolygon.setMap(map);
+  $.each(right, function(index) {
+    rightPolygonCoords.push(new google.maps.LatLng(right[index][0], right[index][1]))
+  });
+  // Styling & Controls
+  rightPolygon = new google.maps.Polygon({
+    paths: rightPolygonCoords,
+    draggable: true, // turn off if it gets annoying
+    editable: true,
+    strokeColor: '#f928ff',
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: '#f928ff',
+    fillOpacity: 0.35
+  });
+
+  leftPolygon.setMap(map);
   //google.maps.event.addListener(myPolygon, "dragend", getPolygonCoords);
-  google.maps.event.addListener(myPolygon.getPath(), "insert_at", getPolygonCoords);
+  google.maps.event.addListener(leftPolygon.getPath(), "insert_at", getPolygonCoords);
   //google.maps.event.addListener(myPolygon.getPath(), "remove_at", getPolygonCoords);
-  google.maps.event.addListener(myPolygon.getPath(), "set_at", getPolygonCoords);
+  google.maps.event.addListener(leftPolygon.getPath(), "set_at", getPolygonCoords);
+
+  rightPolygon.setMap(map);
+  //google.maps.event.addListener(myPolygon, "dragend", getPolygonCoords);
+  google.maps.event.addListener(rightPolygon.getPath(), "insert_at", getPolygonCoords);
+  //google.maps.event.addListener(myPolygon.getPath(), "remove_at", getPolygonCoords);
+  google.maps.event.addListener(rightPolygon.getPath(), "set_at", getPolygonCoords);
 
   google.maps.event.addListenerOnce(map, 'tilesloaded', function(){
-      console.log(check_is_in_or_out(myLatLng)); 
+      console.log(check_is_in_or_out(myLatLng, leftPolygon));
       // console.log(Math.floor(google.maps.geometry.spherical.computeDistanceBetween(testPoint, testPoint2)));
 
       // setupGPStests();
@@ -259,8 +281,8 @@
     }
   }
 
-  function check_is_in_or_out(marker){
-    return google.maps.geometry.poly.containsLocation(marker, myPolygon);
+  function check_is_in_or_out(marker, polygon){
+    return google.maps.geometry.poly.containsLocation(marker, polygon);
   }
 
 

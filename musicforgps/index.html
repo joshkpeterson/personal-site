@@ -24,19 +24,20 @@
         <div class="text-container">
 
             <h1>Press play and start walking</h1>
-            <p>Music will change up to a distance of [some meters away]</p>
-            <p>Requires beings outdoors where there is GPS.</p>
 
             <button id="startButton">Click for sound ON</button>
             <!-- <div class="lngLat"><span class="one">Lat</span><span class="two">,Lng</span></div> -->
-            <!-- <button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copy to Clipboard</button>
-            <textarea id="info"></textarea> -->
+            <button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copy to Clipboard</button>
+            <textarea id="info"></textarea>
             <h1 class="print-coords--now"></h1>
             <h1 class="print-distance"></h1>
 
             <p>This was make pretty quick and it might be buggy on your phone. You might have to wait a sec for your GPS location to turn on full blast and/or refresh the page a couple times till you see your location icon in your phone's toolbar. Sorry, hope it works!</p>
 
-            <a href="http://josh-peterson.com">About me</a>
+            <p><a href="http://josh-peterson.com">About me</a></p>
+
+            <div id="map-canvas"></div>
+            <!-- <img class="map-screenshot" src="img/sfpc.png"> -->
 
             <hr>
             <h3>So, how does this work?</h3>
@@ -52,9 +53,7 @@
 
             <p>How this would probably work is by defining zones, and then you would write the rules for each zone. I’ve started to prototype this and more to come soon.</p>
 
-<!--             <img class="map-screenshot" src="img/map.png">
- -->
-            <p>(Actually, the inspiration for making this at #Eyeo2016 was that I wanted to make a piece of music you could only listen to if you were inside the James Turrell piece at the Walker. But the piece is closed from the construction. Boo.)</p>
+
 
             <p>You could get more granular than a city block though. How about you hear something different when you pass under those trees over there? Or, you could algorithmically generate music for large areas you haven’t even been to, based on city data for example.</p>
 
@@ -75,7 +74,6 @@
 
 
         <textarea class="print-coords"></textarea>
-        <div id="map-canvas"></div>
     </body>
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDrCxgue_zCh-aCS3ud4In1cFJgh2AWM4I"></script>

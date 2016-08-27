@@ -1,7 +1,19 @@
 (function($, window, undefined) {
-  var latLongs = 
+  console.log('hey');
+  var left = 
     [ 
-      [44.967870, -93.288458]
+      [40.73661, -74.00967],
+      [40.73664, -74.00927],
+      [40.73604, -74.00932],
+      [40.73602, -74.00969]
+    ];
+
+  var right = 
+    [ 
+      [40.73663, -74.0093],
+      [40.73662, -74.0089],
+      [40.73609, -74.00891],
+      [40.73603, -74.00934]
     ];
 
   Number.prototype.map = function ( in_min , in_max , out_min , out_max ) {
@@ -80,8 +92,8 @@
 
 
 	//var myPolygon;
-  // Map Center = Walker Art Center
-  var myLatLng = new google.maps.LatLng(44.967870 , -93.288458);
+  // Map Center = near sfpc
+  var myLatLng = new google.maps.LatLng(40.73633, -74.00948);
   // General Options
   var mapOptions = {
     zoom: 17,
@@ -92,6 +104,7 @@
 
 
   var polygonCoords = [];
+  var latLongs = left;
 
   $.each(latLongs, function(index) {
     polygonCoords.push(new google.maps.LatLng(latLongs[index][0], latLongs[index][1]))
@@ -115,10 +128,10 @@
   google.maps.event.addListener(myPolygon.getPath(), "set_at", getPolygonCoords);
 
   google.maps.event.addListenerOnce(map, 'tilesloaded', function(){
-      // console.log(check_is_in_or_out(testPoint));
+      console.log(check_is_in_or_out(myLatLng)); 
       // console.log(Math.floor(google.maps.geometry.spherical.computeDistanceBetween(testPoint, testPoint2)));
 
-      setupGPStests();
+      // setupGPStests();
   });
 
   //Display Coordinates below map

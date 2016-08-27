@@ -219,7 +219,7 @@
             referenceLocation = leftPoint;
             isRight = false;
           } else {
-            // alert('out of the box');
+            alert('out of the box');
           }
 
           oldDistance = distance;

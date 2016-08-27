@@ -1,5 +1,4 @@
 (function($, window, undefined) {
-  console.log('hey');
   var left = 
     [ 
       [40.73661, -74.00967],
@@ -15,6 +14,12 @@
       [40.73609, -74.00891],
       [40.73603, -74.00934]
     ];
+
+  // var leftPoint = [40.73604, -74.00932];
+  // var rightPoint = [40.73663, -74.0093];
+
+
+
 
   Number.prototype.map = function ( in_min , in_max , out_min , out_max ) {
     var _this = this;
@@ -93,7 +98,12 @@
 
 	//var myPolygon;
   // Map Center = near sfpc
-  var myLatLng = new google.maps.LatLng(40.73633, -74.00948);
+  var myLatLng = new google.maps.LatLng(40.73631, -74.00933);
+
+  var leftPoint = new google.maps.LatLng(40.73604, -74.00932);
+  var rightPoint = new google.maps.LatLng(40.73663, -74.0093);
+
+
   // General Options
   var mapOptions = {
     zoom: 19,
@@ -150,10 +160,10 @@
   google.maps.event.addListener(rightPolygon.getPath(), "set_at", getPolygonCoords);
 
   google.maps.event.addListenerOnce(map, 'tilesloaded', function(){
-      console.log(check_is_in_or_out(myLatLng, leftPolygon));
+      // console.log(check_is_in_or_out(myLatLng, leftPolygon));
       // console.log(Math.floor(google.maps.geometry.spherical.computeDistanceBetween(testPoint, testPoint2)));
 
-      // setupGPStests();
+      setupGPStests();
   });
 
   //Display Coordinates below map
@@ -185,22 +195,32 @@
       // });
 
       var currentLocation;
-      var startLocation;
+      var referenceLocation;
       var count = 1;
       var distance = -1;
+      var isRight;
 
       function geo_success(position) {
         $('.print-coords--now').html(position.coords.latitude + ', ' + position.coords.longitude);
         $('.print-coords').val($('.print-coords').val() + position.coords.latitude + ', ' + position.coords.longitude + '\n');
-      
+
+
         if (count === 6) {
-          startLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
+          // startLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
         } else if (count > 6) {
           // For test
           // currentLocation = new google.maps.LatLng(position.coords.latitude + (Math.random() * 0.1), position.coords.longitude);
           currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
-
+          if (check_is_in_or_out(currentLocation, rightPolygon)) {
+            referenceLocation = rightPoint;
+            isRight = true;
+          } else if (check_is_in_or_out(currentLocation, leftPolygon)) {
+            referenceLocation = leftPoint;
+            isRight = false;
+          } else {
+            // alert('out of the box');
+          }
 
           oldDistance = distance;
 
@@ -208,19 +228,38 @@
           // distance += 1;
 
           // For real
-          distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(startLocation, currentLocation));
-        
+          distance = Math.floor(google.maps.geometry.spherical.computeDistanceBetween(referenceLocation, currentLocation));
+          // For test
+          // isRight = false;
+          // distance = 5;
+          
           $('.print-distance').html('Distance from start: ' + distance);
 
           if (play) {
-            synth.set({
-                "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
-                "cutoff.mul": distance.map(0, 50, 5000, 100),
-                "cutoff.add": distance.map(0, 50, 7000, 2000),
-                "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
-                "resonance.add": distance.map(0, 50, 1.5, 5.5),
-                "source.freq": distance.map(0, 50, 0.0000125, 100)
-            });
+            if (isRight) {
+              synth.set({
+                  "cutoff.freq": distance.map(0, 50, 0.25, 0.03125),
+                  "cutoff.mul": distance.map(0, 50, 5000, 100),
+                  "cutoff.add": distance.map(0, 50, 7000, 2000),
+                  "resonance.freq": distance.map(0, 50, 0.25, 0.03125),
+                  "resonance.add": distance.map(0, 50, 1.5, 5.5),
+                  "source.freq": distance.map(0, 50, 0.0000125, 100),
+                  "source.list": [164, 164 * 6/4, 164, 164 * 5/2, 164 * 4/3, 440]
+
+              });
+            } else {
+              synth.set({
+                  "cutoff.freq": 6,
+                  "cutoff.mul": distance.map(0, 50, 5000, 100),
+                  "cutoff.add": distance.map(0, 50, 7000, 2000),
+                  "resonance.freq": distance.map(0, 50, 6, 2),
+                  "resonance.add": distance.map(0, 50, 1.5, 5.5),
+                  "source.freq": distance.map(0, 50, 0.0000125, 2),
+                  "source.ugen": 'flock.ugen.square'
+              });
+              
+            }
+            
           }
 
         }

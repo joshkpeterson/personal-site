@@ -21,6 +21,7 @@ carousel = {
   bindEvents: function() {
     var self = this;
 
+    this.$carousel.css('opacity', '1');
     this.$carousel.royalSlider({
       keyboardNavEnabled: true,
       loop: true,

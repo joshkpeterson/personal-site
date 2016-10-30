@@ -764,7 +764,8 @@ img.rsImg {
 .landing__carousel {
     position: absolute;
     height: 100%;
-    width: 100%
+    width: 100%;
+    opacity: 0;
 }
 .landing__carousel__border {
     border: solid #fff 10px;

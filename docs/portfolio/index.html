@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Josh Peterson</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/royalSlider.css">
+    <!-- <link rel="stylesheet" href="./css/rs-default.css"> -->
+
+    <style>
+        .rsPlayBtn {
+            -webkit-tap-highlight-color:rgba(0,0,0,0.3);
+            width:64px;
+            height:64px;
+            margin-left:-32px;
+            margin-top:-32px;
+            cursor: pointer;
+        }
+        .rsPlayBtnIcon {
+            width:64px;
+            display:block;
+            height:64px;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            transition: .3s;
+
+            background:url(./img/rs-default.png) no-repeat 0 -32px;
+            background-color: #000;
+            background-color: rgba(0,0,0,0.75);
+            *background-color: #000;
+        }
+        .rsPlayBtn:hover .rsPlayBtnIcon {
+            background-color: rgba(0,0,0,0.9);
+        }
+        .rsBtnCenterer {
+            position:absolute;
+            left:50%;
+            top:50%;
+        }
+        .rsCloseVideoBtn {
+            right: 0;
+            top: 0;
+            width: 44px;
+            height: 44px;
+            z-index: 500;
+            position: absolute;
+            cursor: pointer;
+            -webkit-backface-visibility: hidden;
+            -webkit-transform: translateZ(0);
+            
+        }
+        .rsCloseVideoBtn.rsiOSBtn {
+            top: -38px;
+            right: -6px;
+        }
+
+        .rsCloseVideoIcn {
+            margin: 6px;
+            width: 32px;
+            height: 32px;
+            background: url('./img/rs-default.png') -64px 0;
+            background-color: #000;
+            background-color: rgba(0,0,0,0.75);
+            *background-color: #000;
+        }
+        .rsCloseVideoIcn:hover {
+            background-color: rgba(0,0,0,0.9);
+        }
+    </style>
+
+    <meta name="description" content="artist, technologist, mangos">
+</head>
+
+    <body>
+        <div class="landing__content">
+    <header class="landing__header row-md col-12">
+    <div class="col-6 landing__logo">
+        <span class="js-logo">Josh Peterson</span>
+    </div>
+    <div class="landing__header__contact col-6">
+        <span class="landing__contact-text js-contact-text">Contact</span>
+    </div>
+</header>
+
+    <!-- load footer arrows first -->
+    <footer class="landing__footer row-md col-12">
+    <ul class="landing__footer__arrows">
+        <li class="landing__carousel__left-arrow js-left-arrow"></li>
+        <li class="landing__carousel__right-arrow js-right-arrow"></li>
+    </ul>
+    <span class="landing__carousel__status-text js-status-text">
+    </span>
+</footer>
+
+    <div class="landing__carousel__border js-border"></div>
+        <div class="js-carousel landing__carousel">
+            <div class="landing__carousel-item landing__carousel-item--intro js-intro-page">
+                <div class="landing__carousel__intro-text">
+                    <p class="landing__carousel__hero-text intro-hero-margin-bottom">
+                        Some art projects
+                        <br/>
+                    </p>
+                    <p class="landing__carousel__blurb-text">
+                        Since new technologies will shape the creative output of my generation more than any one artwork, I’m fascinated by the poetic potential of emerging software, hardware, and online communities.
+                    </p>
+                    <br/>
+                    <p class="landing__carousel__blurb-text">
+                        I believe in art as a form of knowledge, and in art-making as a form of discovery.
+                    </p>
+                </div>
+            </div>        
+            <div
+                class="landing__carousel-item landing__carousel-item-project cover"
+                data-name="Nocturnes"
+                id="slide-1"
+                >
+                <div class="landing__carousel__slide-text">
+                    <p class="landing__carousel__hero-text intro-hero-margin-bottom">
+                        Nocturnes
+                        <br/>
+                    </p>
+                    <p class="landing__carousel__blurb-text landing__carousel__title-text">
+                        Video Loop. 2012. 25 min., 8’ x  6’ projection. BFA Thesis.
+                    </p>
+                    <br/>
+                    <p class="landing__carousel__blurb-text landing__carousel__detail-text">
+                        Video installation shot using customized drone and camera mount for aerial video. Explored the aesthetic qualities of Seattle neighborhoods at night. Onboard footage was woven with documentation of the shooting process, which carries its own sort of fantastic narrative.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="landing__carousel-item landing__carousel-item-project cover"
+                data-name="Nocturnes"
+                id="slide-2"
+                style="background-color:#">
+                <img class="rsImg" src="img/nocturnes.jpg" data-rsVideo="https://vimeo.com/175171080" />
+            </div>
+            <div
+                class="landing__carousel-item landing__carousel-item-project cover"
+                data-name="Treemap"
+                id="slide-3"
+                style="background-color:#">
+                <div class="landing__carousel__slide-text">
+                    <p class="landing__carousel__hero-text intro-hero-margin-bottom">
+                        Treemap
+                    </p>
+                    <p class="landing__carousel__blurb-text landing__carousel__title-text">
+                        Nepo 5k Art “No-Run,” September 2011, Seattle.
+                    </p>
+                    <br/>
+                    <p class="landing__carousel__blurb-text landing__carousel__detail-text">
+                        Dozens of “greeting-card” recordable audio devices, triggered by a modified spring vibration sensor attached to a tiny sail. They were hung in a group of trees, and when a gust of wind blew through, coordinated sounds played.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="landing__carousel-item landing__carousel-item-project cover"
+                data-name="Beacon"
+                id="slide-4"
+                style="background-color:#">
+                <div class="landing__carousel__slide-text">
+                    <p class="landing__carousel__hero-text intro-hero-margin-bottom">
+                        Beacon
+                    </p>
+                    <p class="landing__carousel__blurb-text landing__carousel__title-text">
+                        Site-specific interactive piece with spotlight, walkie talkies, custom electronics.
+                    </p>
+                    <br/>
+                    <p class="landing__carousel__blurb-text landing__carousel__detail-text">
+                        A “link” across a canal, between two neighborhoods. You can speak into the walkie-talkie, and in the far distance see a tiny light flicker to the sound of your voice.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="landing__carousel-item landing__carousel-item-project cover"
+                data-name="Beacon"
+                id="slide-5"
+                style="background-color:#">
+                <img class="rsImg" src="img/beacon.jpg" data-rsVideo="https://vimeo.com/24302805" />
+            </div>
+                    
+            <div
+                class="landing__carousel-item landing__carousel-item-project cover"
+                data-name="Madam, I'm Adam"
+                id="slide-6"
+                style="background-color:#">
+                <div class="landing__carousel__slide-text">
+                    <p class="landing__carousel__hero-text intro-hero-margin-bottom">
+                        Madam, I'm Adam
+                    </p>
+                    <p class="landing__carousel__blurb-text landing__carousel__title-text">
+                        Found slides, identical twin projectors, frosted glass table, mirrors, saw horses,  cast bronze. 3’ x 2’ x 3’. 2011.
+                    </p>
+                    <br/>
+                    <p class="landing__carousel__blurb-text landing__carousel__detail-text">
+                        Collaboration with Nicholas Nyland, shown at Strange Coupling 2011.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="landing__carousel-item landing__carousel-item-project cover"
+                data-name="Old Photo"
+                id="slide-7"
+                style="background-color:#">
+                <div class="landing__carousel__slide-text text-highlight">
+                    <p class="landing__carousel__hero-text intro-hero-margin-bottom ">
+                        Old Photo
+                    </p>
+                    <p class="landing__carousel__blurb-text landing__carousel__detail-text">
+                         Wood plinth, custom electronics, photograph. 1’ x 1’ x  3.5’. Academic work, 2010.
+                    </p>
+                    <br/>
+                    <p class="landing__carousel__blurb-text landing__carousel__detail-text">
+                        Frost covers the glass over a family photograph on a pedestal, and when you walk up to it, the frost melts over a period of about 10 seconds. A metaphor for memory and nostalgia. Inside the pedestal hides the contraption making this possible – a large heat sink in a bowl of mineral oil, and an infrared sensor.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="landing__carousel-item landing__carousel-item-project cover"
+                data-name="Music for GPS"
+                id="slide-8"
+                style="background-color:#">
+                <div class="landing__carousel__slide-text text-highlight light">
+                    <!-- <p class="landing__carousel__title-hero intro-hero-margin-bottom ">
+                        Music for GPS:
+                    </p> -->
+                    <p class="landing__carousel__blurb-text landing__carousel__title-text">
+                        Music for GPS:
+                        <br/>
+                        Location-based generative music (Work-in-progress).
+                    </p>
+                    <br/>
+                    <p class="landing__carousel__blurb-text landing__carousel__detail-text">
+                        What if you composed music for each city block within a neighborhood? A listener would be able to traverse the neighborhood how they wished, and to experience the piece they'd have to explore and discover the relationship between the actual place and the music.
+                    </p>
+                    <br>
+                    <p><a class="link--native-color link--underline" target="_blank"href="http://josh-peterson.com/musicforgps">Learn more and try a prototype here.</a></p>
+                </div>
+            </div>
+
+            <div
+                class="landing__carousel-item landing__carousel-item-project cover"
+                data-name="Music for GPS"
+                id="slide-9"
+                style="background-color:#">
+                <img class="rsImg" src="img/music-for-gps.jpg" data-rsVideo="https://vimeo.com/174049474" />
+            </div>
+                    
+                
+                    
+                    
+                
+            
+            <div class="landing__carousel-item landing__carousel-item-contact js-contact-page">
+                 <div class="landing__carousel__intro-text">
+                    <p class="landing__carousel__hero-text contact-hero-margin-bottom">
+                        Say Hello
+                    </p>
+                    <br/>
+                    <br/>
+                    <div class="landing__carousel__blurb-text contact-margin-bottom">
+                        <p class="landing__carousel__contact-email">
+                            <a class="link--underline" href="mailto:joshkpete@gmail.com">joshkpete@gmail.com</a>
+                        </p>
+                        <br/>
+                        <p class="landing__carousel__contact-address"><a class="link--underline"href="http://twitter.com/joshypants">@joshypants</a></p>
+                        <br/>
+                        <p>NYC</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+</div>
+
+    </body>
+
+    <script src="./js/vendor/jquery.js"></script>
+    <script src="./js/vendor/jquery.royalslider.custom.min.js"></script>
+    
+    <script src="./js/app.js"></script>
+</html>

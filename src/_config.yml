@@ -1,29 +1,30 @@
 # Site settings
-email: 
+email: "joshkpete@gmail.com"
 baseurl: ""
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page-:num"
 google_analytics: 
 
 # SEO settings
-title: Trophy
-description: 
-url: ""
-twitter_username: 
-default_img: 
+title: Josh Peterson
+description: "Media Art"
+url: "https://josh-peterson.com"
+twitter_username: "joshypants"
+default_img: "https://placekitten.com/1000/1000"
 
 # Profile settings
-name: 
+name: Josh Peterson
 profile_img: 
-profile: 
+profile: "Artist and Technologist based in NYC"
 social:
-  github: 
+  github: "https://github.com/joshkpeterson"
+  twitter: "https://twitter.com/joshypants"
 
 # Build settings
 include: ["_categories"]
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 
 # Sass
 sass:

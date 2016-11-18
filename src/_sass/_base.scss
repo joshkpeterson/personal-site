@@ -5,8 +5,8 @@ $font-header: 'Space Mono', monospace;
 $font-body: 'Inconsolata', monospace;
 $font-post: 'Lora', serif;
 
-$color-alpha: #9f8f68;
-$color-alpha--light: #f5f3ef;
+$color-alpha: #d48bff;
+$color-alpha--light: #e1c1ff;
 
 $color-black: #0a0a0a;
 $color-grey: #f8f9f9;
@@ -64,7 +64,7 @@ h1, h2 {
 }
 
 h1 {
-  $fontSize: 3em;
+  $fontSize: 2em;
 
   @media (min-width: $mq-md) {
     font-size: $fontSize;

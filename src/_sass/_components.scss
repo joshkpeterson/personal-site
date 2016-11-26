@@ -60,6 +60,11 @@
         font-size: 14px;
       }
     }
+
+    .fa-lg {
+      font-size: 1.6em;
+      padding: 8px 8px 8px 0;
+    }
   }
 
   &__container {
@@ -272,10 +277,10 @@
 
   &__social {
     display: flex;
-    margin-top: 1em;
+    margin-top: 2px;
 
     @media (min-width: $mq-sm) {
-      margin-top: 0;
+      // margin-top: 0;
     }
 
     & > *:not(:last-child) {

@@ -46,6 +46,22 @@
  */
 .previews {
 
+  &__bio {
+    color: white;
+
+    a:not(:active):not(:hover):not(:focus) {
+      color: white;
+    }
+
+    &--indented {
+      padding-left: 16px;
+
+      .fa {
+        font-size: 14px;
+      }
+    }
+  }
+
   &__container {
     display: flex;
     flex-direction: column;

@@ -8,11 +8,11 @@ header {
   width: auto;
   height: auto;
   position: relative;
+  mix-blend-mode: screen;
 }
 
  
 .tabs {
-  background-color: white;
   @extend %letter-spacing;
 
   display: flex;
@@ -43,6 +43,7 @@ header {
 }
 
 .tab {
+  mix-blend-mode: screen;
   background-color: white;
 
   &.active {

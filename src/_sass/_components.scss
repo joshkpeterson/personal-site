@@ -381,6 +381,19 @@ header {
     }
   }
 
+  &--alpha {
+    color: $color-alpha;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-alpha--light;
+    }
+  }
+
+
+
+
   &--white {
     color: $color-white;
 

@@ -14,6 +14,19 @@
   background-position: 50%;
 }
 
+.absolute-bg--gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
 /**
  * Color Helpers
  */

@@ -2,6 +2,19 @@
  * Tabs
  * On the Blog page for posts and categories
  */
+
+header {
+  background: white;
+  width: auto;
+  height: auto;
+  position: relative;
+
+  &.header--nav {
+    mix-blend-mode: screen;
+  }
+}
+
+ 
 .tabs {
   @extend %letter-spacing;
 
@@ -33,6 +46,8 @@
 }
 
 .tab {
+  mix-blend-mode: screen;
+  background-color: white;
 
   &.active {
     will-change: opacity;
@@ -46,14 +61,45 @@
  */
 .previews {
 
+  &__bio {
+    color: white;
+
+    a:not(:active):not(:hover):not(:focus) {
+      color: white;
+    }
+
+    &--indented {
+      padding-left: 16px;
+
+      .fa {
+        font-size: 14px;
+      }
+    }
+
+    .fa-lg {
+      font-size: 1.6em;
+      padding: 8px 8px 8px 0;
+    }
+
+    @media (max-width: $mq-md) {
+      ul, span {
+        font-size: 22px;
+      }
+    }
+  }
+
   &__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
+    // width: 100%;
     padding: 2em;
+
+    @media (min-width: $mq-md) {
+      width: 45%;
+    }
 
     color: $color-white;
 
@@ -102,17 +148,17 @@
 
   &__date {
     font-family: $font-header;
-    color: $color-black;
+    color: #0084da;
   }
 
   &__header {
-    color: $color-alpha;
+    color: black;
 
     margin-bottom: 0.5em;
   }
 
   &__excerpt {
-    color: $color-black;
+    color: #0084da;
   }
 
   &__more {
@@ -193,11 +239,11 @@
   }
 
   &__header {
-    color: $color-alpha;
+    color: $color-black;
   }
 
   &__count {
-    color: $color-black;
+    color: #0084da;
   }
 
   &__more {
@@ -256,10 +302,10 @@
 
   &__social {
     display: flex;
-    margin-top: 1em;
+    margin-top: 2px;
 
     @media (min-width: $mq-sm) {
-      margin-top: 0;
+      // margin-top: 0;
     }
 
     & > *:not(:last-child) {
@@ -346,6 +392,19 @@
       color: $color-black;
     }
   }
+
+  &--alpha {
+    color: $color-alpha;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-alpha--light;
+    }
+  }
+
+
+
 
   &--white {
     color: $color-white;

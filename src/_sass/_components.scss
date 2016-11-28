@@ -80,6 +80,12 @@ header {
       font-size: 1.6em;
       padding: 8px 8px 8px 0;
     }
+
+    @media (max-width: $mq-md) {
+      ul, span {
+        font-size: 22px;
+      }
+    }
   }
 
   &__container {

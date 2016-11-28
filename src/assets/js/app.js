@@ -87,7 +87,7 @@ var Tabs = (function() {
         }
       }
 
-      setInterval(updateGradient,30);
+      setInterval(updateGradient,24);
     },
 
     display: function() {

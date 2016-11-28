@@ -14,7 +14,7 @@ default_img: "https://placekitten.com/1000/1000"
 
 # Profile settings
 name: Josh Peterson
-profile_img: 
+profile_img: /assets/img/Josh-Peterson-photo.jpg
 profile: "Artist and Technologist based in NYC"
 social:
   github: "https://github.com/joshkpeterson"

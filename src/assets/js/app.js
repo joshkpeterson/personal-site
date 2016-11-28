@@ -13,10 +13,24 @@ var Tabs = (function() {
       s = this.settings;
       this.display();
       this.click();
+      this.configureAndroid();
 
       var gradientElement = document.getElementById('gradient');
       if (gradientElement !== null) { this.initGradient(); }
       console.log('Don\'t take this as a code sample. Largely adapted from a Jekyll template I didn\'t code. -Josh')
+    },
+
+    configureAndroid: function() {
+      console.log('configuring');
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      
+      if (/android/i.test(userAgent)) {
+        var elements = document.querySelectorAll('.no-android');
+        console.log(elements);
+        for (i = 0; i < elements.length; ++i) {
+          elements[i].style.mixBlendMode = "normal";
+        }
+      }
     },
 
     initGradient: function() {

@@ -10,7 +10,9 @@ header {
   position: relative;
 
   &.header--nav {
-    mix-blend-mode: screen;
+    @supports(mix-blend-mode: screen) {
+      mix-blend-mode: screen;
+    }
   }
 }
 
@@ -46,7 +48,9 @@ header {
 }
 
 .tab {
-  mix-blend-mode: screen;
+  @supports(mix-blend-mode: lighten) {
+    mix-blend-mode: screen;
+  }
   background-color: white;
 
   &.active {

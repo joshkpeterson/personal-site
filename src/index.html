@@ -28,14 +28,14 @@ layout: default
   </div>
 
   <div>
-    <header class="header--nav">
+    <header class="header--nav no-android">
       <ul class="tabs">
         <li class="tabs__item">Posts</li>
         <li class="tabs__item">Categories</li>
       </ul>
     </header>
 
-    <div class="tab">
+    <div class="tab no-android">
       <ul itemscope itemtype="http://schema.org/Blog">
         {% for post in paginator.posts %}
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">

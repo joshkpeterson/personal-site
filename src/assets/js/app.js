@@ -13,11 +13,14 @@ var Tabs = (function() {
       s = this.settings;
       this.display();
       this.click();
-      this.initGradient();
+
+      var gradientElement = document.getElementById('gradient');
+      if (gradientElement !== null) { this.initGradient(); }
       console.log('Don\'t take this as a code sample. Largely adapted from a Jekyll template I didn\'t code. -Josh')
     },
 
     initGradient: function() {
+      console.log('init');
       var colors = new Array(
         [62,35,255],
         [60,255,60],
@@ -58,8 +61,16 @@ var Tabs = (function() {
       var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
       var color2 = "rgb("+r2+","+g2+","+b2+")";
 
-      document.getElementById('gradient').style.background = "linear-gradient(to right, " + color1 + ", " + color2 + ")";
+      // document.getElementById('gradient').style.background = "linear-gradient(to right, " + color1 + ", " + color2 + ")";
 
+      // $('.container--outer').css({
+      //   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+      //    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+       
+
+      document.getElementById('gradient').style.background = "linear-gradient(to right, " + color1 + ", " + color2 + ")";
+      // document.getElementById('gradient').style.background = "gradient(linear, left top, right top, from("+color1+"), to("+color2+"))";
+      // linear-gradient(to right, blue, white);
 
         step += gradientSpeed;
         if ( step >= 1 )
@@ -76,7 +87,7 @@ var Tabs = (function() {
         }
       }
 
-      setInterval(updateGradient,20);
+      setInterval(updateGradient,30);
     },
 
     display: function() {

@@ -8,7 +8,10 @@ header {
   width: auto;
   height: auto;
   position: relative;
-  mix-blend-mode: screen;
+
+  &.header--nav {
+    mix-blend-mode: screen;
+  }
 }
 
  

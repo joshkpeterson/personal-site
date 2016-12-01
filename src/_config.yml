@@ -3,7 +3,7 @@ email: "joshkpete@gmail.com"
 baseurl: ""
 paginate: 10
 paginate_path: "/blog/page-:num"
-google_analytics: 
+google_analytics: UA-88221227-1
 
 # SEO settings
 title: Josh Peterson

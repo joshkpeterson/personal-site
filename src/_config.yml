@@ -10,7 +10,7 @@ title: Josh Peterson
 description: "Media Art"
 url: "https://josh-peterson.com"
 twitter_username: "joshypants"
-default_img: "https://placekitten.com/1000/1000"
+default_img: "/assets/img/Josh-Peterson-dot-com.jpg"
 
 # Profile settings
 name: Josh Peterson
@@ -24,7 +24,7 @@ social:
 include: ["_categories"]
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
-permalink: /:title/
+permalink: /blog/:title/
 
 # Sass
 sass:

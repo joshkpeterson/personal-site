@@ -14,7 +14,7 @@ default_img: "https://josh-peterson.com/assets/img/Josh-Peterson-dot-com.jpg"
 
 # Profile settings
 name: Josh Peterson
-profile_img: "assets/img/Josh-Peterson-photo.jpg"
+profile_img: "https://josh-peterson.com/assets/img/Josh-Peterson-photo.jpg"
 profile: "Josh Peterson is an artist, web developer, and creative technologist based in NYC. Site-specific interactive art is his favorite art."
 social:
   github: "https://github.com/joshkpeterson"

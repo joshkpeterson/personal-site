@@ -37,3 +37,13 @@
 .bg-white {
   background-color: $color-white;
 }
+
+.video-container {
+  text-align: center;
+  padding: 12px 0 24px 0;
+
+  iframe {
+    width: 100%;
+    max-width: 640px;
+  }
+}

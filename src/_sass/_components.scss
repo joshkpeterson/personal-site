@@ -330,9 +330,9 @@ header {
   color: $color-white;
   background-color: $color-black;
 
-  &:after {
-    @extend %overlay;
-  }
+  // &:after {
+  //   @extend %overlay;
+  // }
 
   &__img {
     animation: fade-in 2s both;

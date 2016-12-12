@@ -5,8 +5,8 @@ date: 2016-11-28
 categories:
   - News
 description: 
-image: https://unsplash.it/2000/1200?image=1003
-image-sm: https://unsplash.it/500/300?image=1003
+image: /assets/img/Josh-Peterson-dot-com-post-large.jpg
+image-sm: /assets/img/Josh-Peterson-dot-com-small.jpg
 excerpt: There's a few blog posts on their way. Stay tuned for write-ups about projects in progress.
 
 ---

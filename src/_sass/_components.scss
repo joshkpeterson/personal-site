@@ -67,9 +67,6 @@ header {
 
   &__bio {
     color: white;
-    ul {
-      list-style-type: none;
-    }
 
     a:not(:active):not(:hover):not(:focus) {
       color: white;
@@ -601,5 +598,15 @@ header {
     margin: 0 auto;
     padding-left: 1em;
     padding-right: 1em;
+  }
+}
+
+
+article {
+  ul {
+    list-style-type: unset;
+    ul {
+      list-style-type: circle;
+    }
   }
 }

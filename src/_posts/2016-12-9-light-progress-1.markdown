@@ -33,7 +33,7 @@ Some thoughts about what the piece means to me:
 
 
 * It may turn out to be an extreme digital interaction that will be worthwhile in itself. Someone using this will probably never have experienced anything like it before. Seeing a light turn on when you speak at the distance of 1 mile, or even 100 yards, is uncanny. At 35 miles it may be really strange and awe-inspiring.
-* In one sense, this is conceptually similar with posting something on the internet. You hit a button on your phone with your fingers, and thousands of miles away a server does some unknown task, and then pixels on someone else’s phone sends light into their eyeballs. I’m interested in playing with bringing this action-at-a-distance to the largest scale that one person can immediately experience.
+* In one sense, activating the light is conceptually similar with posting something on the internet. You hit a button on your phone with your fingers, and thousands of miles away a server does some unknown task, and then pixels on someone else’s phone sends light into their eyeballs. I’m interested in playing with bringing this action-at-a-distance to the largest scale that one person can immediately experience.
 * What is a city? What are the limits of a city? All these lights and other utilities that surround us and are interactive to varying degrees, what do they say to us? Are they benevolent?
 * I take a lot of inspiration from the Light and Space movement, especially Robert Irwin.
     * The idea of site-specific art: a piece that leverages the features of its environment. It can only exist in that place it was designed for – if you move it, it’s changed. The context is part of the work.

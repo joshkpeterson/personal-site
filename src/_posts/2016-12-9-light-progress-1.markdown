@@ -5,8 +5,8 @@ date: 2016-12-9
 categories:
   - Work-in-Progress
 description: 
-image: http://localhost:4000/assets/img/beacon-3-hero-large.jpg
-image-sm: http://localhost:4000/assets/img/beacon-3-hero-small.jpg
+image: /assets/img/beacon-3-hero-large.jpg
+image-sm: /assets/img/beacon-3-hero-small.jpg
 excerpt: "How might we make interactive land art? This project is one answer to this question, and I am open-sourcing the process."
 
 ---
@@ -45,9 +45,9 @@ Some thoughts about what the piece means to me:
 <br>
 
 ## The Tech
-------
+<br>
 
-![Project Diagram]({{ site.url }}/assets/beacon-redux-diagram.jpg)
+![Project Diagram](/assets/img/beacon-redux-diagram.jpg)
 
 What follows is an audit over all the bases I have to cover to execute this project. 
 

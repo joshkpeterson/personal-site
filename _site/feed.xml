@@ -5,8 +5,8 @@
     <description>Media Art</description>
     <link>https://josh-peterson.com/</link>
     <atom:link href="https://josh-peterson.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Dec 2016 14:12:49 -0500</pubDate>
-    <lastBuildDate>Sat, 10 Dec 2016 14:12:49 -0500</lastBuildDate>
+    <pubDate>Sat, 10 Dec 2016 14:28:58 -0500</pubDate>
+    <lastBuildDate>Sat, 10 Dec 2016 14:28:58 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -15,12 +15,17 @@
 
 &lt;p&gt;While I was in college in Seattle I made an interactive project using a big handheld spotlight, a pair of walkie-talkies, and an arduino. Seattle is very hilly, and on one hill I put the spotlight. Then from another hill one mile away, you could control the spotlight with your voice. At that distance, the light looked like any other streetlight – a tiny spec. But it only turned on when you were speaking into the walkie-talkie. I made a short film about setting the project up and using it, the light flashing on and off with every syllable you spoke.&lt;/p&gt;
 
-&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/24302805?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
 &lt;p&gt;I want to make another version of this project in Seattle again, but at a very large scale. Seattle is surrounded by mountains – to the east are the Cascades, and to the west are the Olympics. They’re a defining feature of the landscape – they’re the horizon, the walls of the wilderness that contains the city. I want to put a light out in these mountains, 35 miles away, that anyone can control in the city by visiting a url on their phone and speaking into it.&lt;/p&gt;
 
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/24302805?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
-&lt;p&gt;Some thoughts about what the piece means to me:&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Some thoughts about what the piece means to me:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;It may turn out to be an extreme digital interaction that will be worthwhile in itself. Someone using this will probably never have experienced anything like it before. Seeing a light turn on when you speak at the distance of 1 mile, or even 100 yards, is uncanny. At 35 miles it may be really strange and awe-inspiring.&lt;/li&gt;
@@ -37,14 +42,12 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;implementation&quot;&gt;Implementation&lt;/h2&gt;
+&lt;h2 id=&quot;the-tech&quot;&gt;The Tech&lt;/h2&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;[image]&lt;/p&gt;
 
 &lt;p&gt;What follows is an audit over all the bases I have to cover to execute this project.&lt;/p&gt;
-
-&lt;p&gt;[Braindump]&lt;/p&gt;
 
 &lt;h3 id=&quot;the-light&quot;&gt;1. The Light&lt;/h3&gt;
 
@@ -81,11 +84,17 @@ I’ll need send a number describing the loudness of someone’s voice from the 
 
 &lt;p&gt;At least in the beginning I’ll need to set up a system for logging and a dashboard to see the data and perform some administration actions. There are 3 reasons for this: for prototyping and iterative design in early stages; for documentation of how people used it after the project is over; and maybe even for managing bad actors while the piece is in play.&lt;/p&gt;
 
-&lt;h2 id=&quot;other-issues&quot;&gt;Other Issues&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;There are some non-technical challenges to executing this piece too.&lt;/p&gt;
+&lt;h2 id=&quot;land-use-logistics-design&quot;&gt;Land Use, Logistics, Design&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Selecting a site. Since I don’t live in Seattle anymore, I’ve used google maps to stake out a lot of the land surrounding the city. I also need permission. To the east, the land covering the nearby Cascades is managed by a corporation. To the west, it’s managed by the National Forest Service. Using NFS land is highly regulated and there’s a protracted process to gain access, so it would be much easier to just send the corporation a letter. Anyway, NFS actually requires that you pursue non-public options for your use first. To ask for permission, I might think about some creative options like a video pitch or even something more out there. The work of &lt;a href=&quot;http://christojeanneclaude.net/&quot;&gt;Christo and Jeanne-Claude&lt;/a&gt; art required a lot of securing agreements with public agencies and private property owners, and the process of getting permission even became part of the work. It’s a different story when you are an early career unknown artist, though.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+There are some non-technical challenges to executing this piece too.&lt;/p&gt;
+
+&lt;p&gt;Selecting a site. Since I don’t live in Seattle anymore, I’ve used google maps to stake out a lot of the land surrounding the city. When I was visiting in October, I went on a hike in one potential location, and confirmed that it’s possible to see radio tower lights from more than 35 miles away.&lt;/p&gt;
+
+&lt;p&gt;I also need permission. To the east, the land covering the nearby Cascades is managed by a corporation. To the west, it’s managed by the National Forest Service. Using NFS land is highly regulated and there’s a protracted process to gain access, so it would be much easier to just send the corporation a letter. Anyway, NFS actually requires that you pursue non-public options for your use first. To ask for permission, I might think about some creative options like a video pitch or even something more out there. The work of &lt;a href=&quot;http://christojeanneclaude.net/&quot;&gt;Christo and Jeanne-Claude&lt;/a&gt; art required a lot of securing agreements with public agencies and private property owners, and the process of getting permission even became part of the work. It’s a different story when you are an early career unknown artist, though.&lt;/p&gt;
 
 &lt;p&gt;Either way, I may be required to get a Professional Engineer to look over my light’s specs and make sure it’s not a fire hazard. Even if it’s not legally required, I might do it anyway because it will make me and probably my hosts feel better. PE’s are often engaged for public art projects. I need to find one though, and I’m not sure the best way to go about that. Been following some word of mouth leads with other artists.&lt;/p&gt;
 
@@ -113,7 +122,11 @@ I’ll need send a number describing the loudness of someone’s voice from the 
     
       <item>
         <title>Welcome</title>
-        <description>&lt;p&gt;There’s a few blog posts on their way. Stay tuned for write-ups about projects in progress.&lt;/p&gt;
+        <description>&lt;p&gt;I’ve been thinking about the ways media artists can share technical knowledge, process, and theory with each other. If this was done more, it’s possible it’ll lead to more critical art and more meaningful experiences.&lt;/p&gt;
+
+&lt;p&gt;Then I saw that New American Public Art, a studio out of Boston that makes interactive pieces, created a &lt;a href=&quot;https://www.patreon.com/NAPA/posts&quot;&gt;Patreon&lt;/a&gt; where they’re open sourcing a lot of information from their work. I’ve decided to take the plunge.&lt;/p&gt;
+
+&lt;p&gt;I’ll be using this space to share write-ups about projects in progress, as well as criticism of other work I see around me. ✌️&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Nov 2016 00:00:00 -0500</pubDate>
         <link>https://josh-peterson.com/blog/welcome/</link>

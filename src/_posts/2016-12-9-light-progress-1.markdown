@@ -15,14 +15,20 @@ How might we make interactive land art? This project is one answer for this ques
 
 While I was in college in Seattle I made an interactive project using a big handheld spotlight, a pair of walkie-talkies, and an arduino. Seattle is very hilly, and on one hill I put the spotlight. Then from another hill one mile away, you could control the spotlight with your voice. At that distance, the light looked like any other streetlight – a tiny spec. But it only turned on when you were speaking into the walkie-talkie. I made a short film about setting the project up and using it, the light flashing on and off with every syllable you spoke.
 
+I want to make another version of this project in Seattle again, but at a very large scale. Seattle is surrounded by mountains – to the east are the Cascades, and to the west are the Olympics. They’re a defining feature of the landscape – they’re the horizon, the walls of the wilderness that contains the city. I want to put a light out in these mountains, 35 miles away, that anyone can control in the city by visiting a url on their phone and speaking into it.
+
+
 
 <div class="video-container"><iframe src="https://player.vimeo.com/video/24302805?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 
-I want to make another version of this project in Seattle again, but at a very large scale. Seattle is surrounded by mountains – to the east are the Cascades, and to the west are the Olympics. They’re a defining feature of the landscape – they’re the horizon, the walls of the wilderness that contains the city. I want to put a light out in these mountains, 35 miles away, that anyone can control in the city by visiting a url on their phone and speaking into it.
 
+<br>
 
 ## Background
+------
+
+<br>
 Some thoughts about what the piece means to me:
 
 
@@ -38,14 +44,12 @@ Some thoughts about what the piece means to me:
 
 <br>
 
-## Implementation
+## The Tech
 ------
 
 [image]
 
 What follows is an audit over all the bases I have to cover to execute this project. 
-
-[Braindump]
 
 
 ### 1. The Light
@@ -83,14 +87,17 @@ There will need to be some logic for mixing all incoming signals. I’ll write m
 
 At least in the beginning I’ll need to set up a system for logging and a dashboard to see the data and perform some administration actions. There are 3 reasons for this: for prototyping and iterative design in early stages; for documentation of how people used it after the project is over; and maybe even for managing bad actors while the piece is in play.
 
+<br>
 
-Other Issues
+## Land Use, Logistics, Design
 ------
 
-
+<br>
 There are some non-technical challenges to executing this piece too.
 
-Selecting a site. Since I don’t live in Seattle anymore, I’ve used google maps to stake out a lot of the land surrounding the city. I also need permission. To the east, the land covering the nearby Cascades is managed by a corporation. To the west, it’s managed by the National Forest Service. Using NFS land is highly regulated and there’s a protracted process to gain access, so it would be much easier to just send the corporation a letter. Anyway, NFS actually requires that you pursue non-public options for your use first. To ask for permission, I might think about some creative options like a video pitch or even something more out there. The work of [Christo and Jeanne-Claude](http://christojeanneclaude.net/) art required a lot of securing agreements with public agencies and private property owners, and the process of getting permission even became part of the work. It’s a different story when you are an early career unknown artist, though.
+Selecting a site. Since I don’t live in Seattle anymore, I’ve used google maps to stake out a lot of the land surrounding the city. When I was visiting in October, I went on a hike in one potential location, and confirmed that it's possible to see radio tower lights from more than 35 miles away.
+
+I also need permission. To the east, the land covering the nearby Cascades is managed by a corporation. To the west, it’s managed by the National Forest Service. Using NFS land is highly regulated and there’s a protracted process to gain access, so it would be much easier to just send the corporation a letter. Anyway, NFS actually requires that you pursue non-public options for your use first. To ask for permission, I might think about some creative options like a video pitch or even something more out there. The work of [Christo and Jeanne-Claude](http://christojeanneclaude.net/) art required a lot of securing agreements with public agencies and private property owners, and the process of getting permission even became part of the work. It’s a different story when you are an early career unknown artist, though.
 
 Either way, I may be required to get a Professional Engineer to look over my light’s specs and make sure it’s not a fire hazard. Even if it’s not legally required, I might do it anyway because it will make me and probably my hosts feel better. PE’s are often engaged for public art projects. I need to find one though, and I’m not sure the best way to go about that. Been following some word of mouth leads with other artists.
 

@@ -47,7 +47,7 @@ Some thoughts about what the piece means to me:
 ## The Tech
 ------
 
-[image]
+![Project Diagram]({{ site.url }}/assets/beacon-redux-diagram.jpg)
 
 What follows is an audit over all the bases I have to cover to execute this project. 
 
@@ -105,7 +105,7 @@ Also, I need to check that this light will be legal by FAA standards. It’s har
 
 Setup is going to require flying from NYC to Seattle, probably doing some fabrication there, and then getting a team of people to help install. I may have to secure some space to do staging/testing. I’ll have to rent a truck and maybe get permits to access land. Then, I’ll also want to take footage of setting the project up to use in documentation/ video version of the work, and take footage of people using it while I’m there. So I’ll need to rent video equipment and do some storyboarding to plan what my final project ideal would be.
 
-Publicity. I’m inspired by the [All Rise]( http://www.allriseseattle.org/robertmontgomery/) project and the confusion it caused. People didn’t really know what to make of it at first, and there was some question about who was behind it, what their motives are, or even was it art. I also would like this piece to slowly catch on. The social dimension of this piece is really important to me. I may flyer in places that have line of sight to break out of my social bubble without using press that I myself commission. Flyers will have to be designed carefully because of the type of messaging/framing they give the piece. 
+Publicity. The social dimension of this piece is really important to me. I’m inspired by the [All Rise]( http://www.allriseseattle.org/robertmontgomery/) project and the confusion it caused. People didn’t really know what to make of it at first, and there was some question about who was behind it, what their motives are, or even was it art. I would like this piece to slowly catch on in the same way. I may flyer in places that have line of sight to break out of my social bubble without using press. Flyers will have to be designed carefully because of the type of messaging/framing they give the piece. 
 
 The front end design will have to be carefully considered too. It’ll be really minimal, and dark so it doesn’t ruin people’s night vision.
 

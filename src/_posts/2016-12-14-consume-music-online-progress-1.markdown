@@ -59,7 +59,9 @@ Still, what if we assembled all of the music into a whole, as much as we could a
 
 What if we took all of the pieces, that were before so disparate, and by creating relationships between them, formed a mass out of them, that we could treat as one? That you could actually be presented with, that you actually had the means to explore if you had enough time?
 
-Assembling all the midi on the internet is not the same as assembling all the music in the world. The internet doesn’t contain all the music, just like it doesn’t contain all the knowledge, much less all the experience. But the internet was and is the primary vehicle for cheesy midi adaptations of songs, and so this archive is maybe a solid attempt at building a corpus that represents an entirety. Or maybe it just directs the mind’s eye toward the gap between the real infinity, and our best attempt. But who knows how big that gap is, because your idea of the real infinite is just an abstraction anyway. Well, this site is just an abstraction too.
+Assembling all the midi on the internet is not the same as assembling all the music in the world. The internet doesn’t contain all the music, just like it doesn’t contain all the knowledge, much less all the experience. But the internet was and is the primary vehicle for cheesy midi adaptations of songs, and so this archive is maybe a solid attempt at building a corpus that represents an entirety. 
+
+Or maybe it just directs the mind’s eye toward the gap between the real infinity, and our best attempt. But who knows how big that gap is? Because your idea of the real infinite is just an abstraction anyway. Well, this site is just an abstraction too.
 <br>
 <br>
 <br>
@@ -70,15 +72,20 @@ Music is not infinite. So in your mind, assemble the totality of ALL of music. W
 
 Maybe the infinite is when you reach for another, and one can always be found. Whereas the all-of-it will eventually run out.
 
-This site is about how we assemble things into groups.
 
-A group of things must be assembled – either by physically bringing them together, or by abstractly forming a relationship between them.
+<br>
+<br>
+
+## This site is about how we assemble things into groups.
+<br>
+
+A group of things must be assembled – either by physically bringing them together, or by forming an abstract relationship between them.
 
 When we say we’re putting all the songs together – well those songs are actually all different. That’s what makes them distinct. If we’re talking about ALL songs, there are only two things we can say for sure about every last one of them – they’re all songs, and they’re all different.
 
 We can talk about how the definition of music is kind of arbitrary, but you know what’s even more arbitrary? The definition of experiencing that song! I can listen to the same song, but the experience of it can be so different! Picture yourself listening to N*SYNC now versus at age 12. And yet we’re saying those are the same? Mario is punching the box again and again, over and over, and the coins keep coming out. And we’re saying those coins are the same? Why does their tally keep going up and up?
 
-Everyone who goes to this site will experience this piece of net art. But will everyone experience it the same? Maybe to prove they won’t we’ll show each of them something different. Maybe we’ll play them each a different song. And when they come back again, we’ll do the same. Something different.
+Everyone who goes to this site will experience this piece of net art. But will everyone experience it the same? Maybe to prove they won’t, we’ll show each of them something different. Maybe we’ll play them each a different song. And when they come back again, we’ll do the same. Something different.
 
 
 

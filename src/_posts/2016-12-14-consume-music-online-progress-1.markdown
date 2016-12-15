@@ -5,13 +5,13 @@ date: 2016-12-14
 categories:
   - Work-in-Progress
 description: 
-image: /assets/img/beacon-3-hero-large.jpg
-image-sm: /assets/img/beacon-3-hero-small.jpg
+image: /assets/img/consume-music-coin.png
+image-sm: /assets/img/consume-music-coin.png
 excerpt: "Like Snapchat, but for the entirety of all music in existence."
 
 ---
 
-#### I’m working on a site. When you go to it, you’ll read something like this: 
+#### I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this: 
   
 >Turn up your speakers. You are now listening to a sound that will never be heard again.
 > 
@@ -86,13 +86,3 @@ When we say we’re putting all the songs together – well those songs are actu
 We can talk about how the definition of music is kind of arbitrary, but you know what’s even more arbitrary? The definition of experiencing that song! I can listen to the same song, but the experience of it can be so different! Picture yourself listening to N*SYNC now versus at age 12. And yet we’re saying those are the same? Mario is punching the box again and again, over and over, and the coins keep coming out. And we’re saying those coins are the same? Why does their tally keep going up and up?
 
 Everyone who goes to this site will experience this piece of net art. But will everyone experience it the same? Maybe to prove they won’t, we’ll show each of them something different. Maybe we’ll play them each a different song. And when they come back again, we’ll do the same. Something different.
-
-
-
-
-
-
-
-
-
-

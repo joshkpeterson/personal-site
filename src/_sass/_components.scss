@@ -519,6 +519,7 @@ header {
   &__social {
     display: flex;
     justify-content: flex-end;
+    list-style-type: none;
 
     & > *:not(:last-child) {
       margin-right: 1em;

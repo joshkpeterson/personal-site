@@ -440,7 +440,7 @@ header {
     line-height: 1.2;
   }
 
-  p:first-child {
+  p:first-child:not(.normal-size) {
     font-size: 1.25em;
   }
 

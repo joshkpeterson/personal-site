@@ -13,6 +13,6 @@ excerpt: There's a few blog posts on their way. Stay tuned for write-ups about p
 
 I've been thinking about the ways media artists can share technical knowledge, process, and theory with each other. If this was done more, it's possible it'll lead to more critical art and more meaningful experiences.
 
-Then I saw that New American Public Art, a studio out of Boston that makes interactive pieces, created a [Patreon](https://www.patreon.com/NAPA/posts) where they're open sourcing a lot of information from their work. I've decided to take the plunge.  
+I was mulling this over, and then I saw that New American Public Art, a studio out of Boston that makes interactive pieces, created a [Patreon](https://www.patreon.com/NAPA/posts) where they're open sourcing a lot of information from their work. I've decided to take the plunge.  
 
 I'll be using this space to share write-ups about projects in progress, as well as criticism of other work I see around me. ✌️

@@ -78,7 +78,7 @@ But weirdly, this abstraction brings a materiality. First, when you make a digit
 
 Music is not infinite. So in your mind, assemble the totality of ALL of music. What’s the difference between that and infinity? Between the all-of-it and the infinite?
 
-Thinking about all of music is tough because music isn't just the artifacts. It's also the lived experience of the thing. We typically have one of a couple different situations. 1) Listening to a concert, a live performance that may only exist in that moment, shared together amongst a dozen, a hundred, a hundred thousand people. 2) Listening to recorded music, a static digital artifact of a performance, alone. 
+Thinking about all of music is tough because music isn't just the artifacts, it's also the lived experience of the thing. We typically have one of a couple different situations: 1) Listening to a concert, a live performance that may only exist in that moment, shared together amongst a dozen, a hundred, a hundred thousand people. 2) Listening to recorded music, a static digital artifact of a performance, alone. 
 
 consumemusic.online is an inversion of this. Thousands of people together will experience a one-time performance of a digital artifact, a concert that's thousands of hours long. But formally something weird is happening, because each person will only experience a small piece.
 

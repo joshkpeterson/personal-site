@@ -5,8 +5,8 @@ date: 2016-12-14
 categories:
   - Work-in-Progress
 description: 
-image: /assets/img/consume-music-coin.png
-image-sm: /assets/img/consume-music-coin.png
+image: https://josh-peterson.com/assets/img/consume-music-coin.png
+image-sm: https://josh-peterson.com/assets/img/consume-music-coin.png
 excerpt: "Like Snapchat, but for the entirety of all music in existence."
 
 ---

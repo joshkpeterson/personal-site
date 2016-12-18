@@ -5,8 +5,8 @@ date: 2016-12-9
 categories:
   - Work-in-Progress
 description: 
-image: /assets/img/beacon-3-hero-large.jpg
-image-sm: /assets/img/beacon-3-hero-small.jpg
+image: https://josh-peterson.com/assets/img/beacon-3-hero-large.jpg
+image-sm: https://josh-peterson.com/assets/img/beacon-3-hero-small.jpg
 excerpt: "How might we make interactive land art? This project is one answer to this question, and I am open-sourcing the process."
 
 ---

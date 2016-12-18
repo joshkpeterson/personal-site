@@ -5,8 +5,8 @@ date: 2016-12-16
 categories:
   - Manifestos
 description: 
-image: /assets/img/all-art-same-hero-large.jpg
-image-sm: /assets/img/all-art-same-hero-large.jpg
+image: https://josh-peterson.com/assets/img/all-art-same-hero-large.jpg
+image-sm: https://josh-peterson.com/assets/img/all-art-same-hero-large.jpg
 excerpt: "Can artists working with new media say anything truly new?"
 
 ---

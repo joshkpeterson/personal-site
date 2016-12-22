@@ -5,8 +5,8 @@ date: 2016-12-22
 categories:
   - Work-in-Progress
 description: 
-image: "assets/img/music-for-gps-hero-large.jpg"
-image-sm: "assets/img/music-for-gps-hero-small.jpg"
+image: "http://localhost:4000/assets/img/music-for-gps-hero-large.jpg"
+image-sm: "http://localhost:4000/assets/img/music-for-gps-hero-small.jpg"
 excerpt: "Working towards location based generative music."
 
 ---

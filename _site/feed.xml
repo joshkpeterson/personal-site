@@ -5,9 +5,85 @@
     <description>Media Art</description>
     <link>https://josh-peterson.com/</link>
     <atom:link href="https://josh-peterson.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Dec 2016 19:06:48 -0500</pubDate>
-    <lastBuildDate>Fri, 16 Dec 2016 19:06:48 -0500</lastBuildDate>
+    <pubDate>Thu, 22 Dec 2016 12:15:59 -0800</pubDate>
+    <lastBuildDate>Thu, 22 Dec 2016 12:15:59 -0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Music for GPS</title>
+        <description>&lt;!-- ![Prototypes](/assets/img/music-for-gps-joanne-screenshot.png) --&gt;
+&lt;p&gt;&lt;img style=&quot;max-width: 400px; margin: 0 auto&quot; src=&quot;/assets/img/music-for-gps-joanne-screenshot.png&quot; alt=&quot;Joanne McNeil Tweet&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:&lt;/p&gt;
+
+&lt;p&gt;All the songs are in the archive laid out end to end, left to right.&lt;/p&gt;
+
+&lt;p&gt;You can scroll horizontally. To the left is the boneyard of all the songs that have been played. To the right are unplayed songs, mostly. The song you’re playing has a red leading edge at the current time. You can click on any unplayed song to start playing it instead.&lt;/p&gt;
+
+&lt;p&gt;You can see when someone else is currently playing a song because the edge is yellow. If you click on their song, they’ll get booted to the next available blue space. You’ll pick up where they left off.&lt;/p&gt;
+
+&lt;p&gt;The piece is meant to be compared / contrast with how we collectively create and consume media in communities online. It’s an opportunity for the swarm behavior of thousands of people on the internet, usually only imagined or experienced incidentally, to be brought into focus.&lt;/p&gt;
+
+&lt;p&gt;There’s something further, though.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;max-width: 400px; margin: 0 auto&quot; src=&quot;/assets/img/mario.gif&quot; alt=&quot;Mario Text Gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But - with the digital, what is also summoned at will are rules and relationships. What if, by setting some rules, we make a digital artifact consumable?&lt;/p&gt;
+
+&lt;p&gt;It was here, but then you put it in your body, and now it’s gone. At some point along the way it was transformed into something else. The object is no longer here.&lt;/p&gt;
+
+&lt;p&gt;Or…it’s still here, but it has a different state? Or at least the idea of it is still here, but with a different state attached. Maybe the experience of it is the only thing that is ever consumed. Even with an eternal music object, the experience was always consumed.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;this-site-is-about-how-we-bracket-infinity&quot;&gt;This site is about how we bracket infinity.&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Music, as a cultural entity, seems infinite. All the music in all the earth – now and since forever – who can count it all? But it’s actually not infinite. Music requires people, to create it and to experience it, and there is a finite number of people that have ever lived.&lt;/p&gt;
+
+&lt;p&gt;Still, what if we assembled all of the music into a whole, as much as we could at least?&lt;/p&gt;
+
+&lt;p&gt;What if we took all of the pieces, that were before so disparate, and by creating relationships between them, formed a mass out of them, that we could treat as one? That you could actually be presented with, that you actually had the means to explore if you had enough time?&lt;/p&gt;
+
+&lt;p&gt;Assembling all the midi on the internet is not the same as assembling all the music in the world. The internet doesn’t contain all the music, just like it doesn’t contain all the knowledge, much less all the experience. But the internet was and is the primary vehicle for cheesy midi adaptations of songs, and so this archive is maybe a solid attempt at building a corpus that represents an entirety.&lt;/p&gt;
+
+&lt;p&gt;Or maybe it just directs the mind’s eye toward the gap between the real infinity, and our best attempt. But who knows how big that gap is? Because your idea of the real infinite is just an abstraction anyway. Well, this app is just an abstraction too.&lt;/p&gt;
+
+&lt;p&gt;But weirdly, this abstraction brings a materiality. First, when you make a digital object consumable, its digital representation takes on a materiality that wasn’t there before. It’s graphical interface no longer represents that thing, it IS that thing. Second, when you bring all of music together into one, its wholeness becomes something you can directly experience, even if it’s so large you have to travel to do so.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;this-site-is-about-when-we-say-two-things-are-different-and-when-we-say-theyre-the-same&quot;&gt;This site is about when we say two things are different, and when we say they’re the same.&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Music is not infinite. So in your mind, assemble the totality of ALL of music. What’s the difference between that and infinity? Between the all-of-it and the infinite?&lt;/p&gt;
+
+&lt;p&gt;Thinking about all of music is tough because music isn’t just the artifacts, it’s also the lived experience of the thing. We typically have one of a couple different situations: 1) Listening to a concert, a live performance that may only exist in that moment, shared together amongst a dozen, a hundred, a hundred thousand people. 2) Listening to recorded music, a static digital artifact of a performance, alone.&lt;/p&gt;
+
+&lt;p&gt;consumemusic.online is an inversion of this. Thousands of people together will experience a one-time performance of a digital artifact, a concert that’s thousands of hours long. But formally something weird is happening, because each person will only experience a small piece.&lt;/p&gt;
+
+&lt;p&gt;It’s a parallel to our experience of social media. How often have you heard of someone complaining of some phenomenon “on Facebook” which you yourself have not witnessed? And yet we all refer to “Facebook” as if it’s one entity, when it’s really maybe closer to our own little room. Totally unique, totally dynamic, different from everyone else’s and different from one moment to the next. Maybe we don’t appreciate this fact. But if you pull up consumemusic.online and you’re the single solitary person that heard “Hey Jude,” maybe you will.&lt;/p&gt;
+
+&lt;p&gt;And if you think about the totality of music from day to day, this is what is happening all along. All of these individual experiences are happening distributed throughout millions of different places, but together they sum up to the sublime reality of what music actually is. No one person gets to experience that though.&lt;/p&gt;
+
+&lt;p&gt;When two people each view a work of art, and that work of art shows them each something different, how different does the thing have to be for us to no longer say they saw the same art? If a work’s identity isn’t in the details, what is it in?&lt;/p&gt;
+
+&lt;p&gt;Everyone who goes to the site will experience this piece of net art. But will everyone experience it the same? Maybe to prove they won’t, we’ll show each of them something different. Maybe we’ll play them each a different song. And when they come back again, we’ll do the same. Something different.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Dec 2016 00:00:00 -0800</pubDate>
+        <link>https://josh-peterson.com/blog/music-for-gps-progress-1/</link>
+        <guid isPermaLink="true">https://josh-peterson.com/blog/music-for-gps-progress-1/</guid>
+        
+        
+        <category>Work-in-Progress</category>
+        
+      </item>
     
       <item>
         <title>Is all art the same?</title>
@@ -27,7 +103,7 @@
 
 &lt;p&gt;I disagree. It’s a poetic idea, but it’s ultimately not the most useful.&lt;/p&gt;
 
-&lt;p&gt;Take the example of film. First photography was invented, then the movie camera. Because of technology, a new media and a new art form came into existence. Over the next 100 years, you have great filmmakers making statements that could have not been made with live performance.&lt;/p&gt;
+&lt;p&gt;Take the example of film. First photography was invented, then the movie camera. Because of technology, a new medium and a new art form came into existence. Over the next 100 years, you have great filmmakers making statements that could have not been made with live performance.&lt;/p&gt;
 
 &lt;p&gt;Some might argue that the themes are the same. With film and theater, aren’t we still talking about fundamentally the same things – relationships between people, the human condition? Yes, but the experience is different. And that’s the problem with saying “all art is the same.” It’s placing knowledge over experience, and that’s the wrong approach to take when making art.&lt;/p&gt;
 
@@ -35,13 +111,13 @@
 
 &lt;p&gt;So yes, you and I were both born and will both die. We both have parents, friends, lovers, struggles, triumphs. But we’re ultimately living different experiences. New media is worth making art with because it gives us new types of experiences. New sensations, new forms, new relationships.&lt;/p&gt;
 
-&lt;p&gt;If you still don’t see things the way I do, we could talk about how John Lennon said sometimes a given song would sound fast, other times slow. Or about how when you read a piece of Shakespeare as a parent midway through life, it’s going to say to you different things than when you read it as a teenager. Or about how right now the artists who are not white males are still fighting just to have a seat at a table.  How the ideas contained within the sphere of art are all impoverished in want of different points of view.&lt;/p&gt;
+&lt;p&gt;If you still don’t see things the way I do, we could talk about how John Lennon said some days a given song would sound fast, other days slow. Or about how when you read a piece of Shakespeare as a parent midway through life, it’s going to say to you different things than when you read it as a teenager. Or about how right now the artists who are not white males are still fighting just to have a seat at a table.  How the ideas contained within the sphere of art are all impoverished in want of different points of view.&lt;/p&gt;
 
 &lt;p&gt;We don’t have to talk about those things though. What I know is that with experience and knowledge, knowledge comes after. Experience comes first. Art’s radical conviction – that beauty is worth defending from other forces in society – is based upon this fact. Experience is worthwhile in itself, and rewards exploring. Being comes before measuring. Even in the measuring, it is always there. And you can’t say two things are the same without holding a stick up to them first. If you’re saying all things are the same, you’re not really seeing them as they are.&lt;/p&gt;
 
 &lt;p&gt;I want art that shows me something I can’t place. Because only then will I take the risk of really looking. Only then will I feel the exhilaration of really looking. Only in that struggle will I make a new box for that thing to go into. Out of this challenge we will form new words. Only with these new words will we share what we can’t explain.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 16 Dec 2016 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 16 Dec 2016 00:00:00 -0800</pubDate>
         <link>https://josh-peterson.com/blog/is-all-art-the-same/</link>
         <guid isPermaLink="true">https://josh-peterson.com/blog/is-all-art-the-same/</guid>
         
@@ -52,7 +128,9 @@
     
       <item>
         <title>consumemusic.online</title>
-        <description>&lt;p class=&quot;normal-size&quot;&gt;I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:&lt;/p&gt;
+        <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/174049474?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;Turn up your speakers. You are now listening to a sound that will never be heard again.&lt;/em&gt;&lt;/p&gt;
@@ -131,7 +209,7 @@ I made up some prototypes in Sketch:
 
 &lt;p&gt;Everyone who goes to the site will experience this piece of net art. But will everyone experience it the same? Maybe to prove they won’t, we’ll show each of them something different. Maybe we’ll play them each a different song. And when they come back again, we’ll do the same. Something different.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 14 Dec 2016 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 14 Dec 2016 00:00:00 -0800</pubDate>
         <link>https://josh-peterson.com/blog/consume-music-online-progress-1/</link>
         <guid isPermaLink="true">https://josh-peterson.com/blog/consume-music-online-progress-1/</guid>
         
@@ -242,7 +320,7 @@ There are some non-technical challenges to executing this piece too.&lt;/p&gt;
 &lt;p&gt;Alright, that was a long summary. In upcoming posts I’ll examine some of the individual components more in-depth!&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 09 Dec 2016 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 09 Dec 2016 00:00:00 -0800</pubDate>
         <link>https://josh-peterson.com/blog/light-progress-1/</link>
         <guid isPermaLink="true">https://josh-peterson.com/blog/light-progress-1/</guid>
         
@@ -259,7 +337,7 @@ There are some non-technical challenges to executing this piece too.&lt;/p&gt;
 
 &lt;p&gt;I’ll be using this space to share write-ups about projects in progress, as well as criticism of other work I see around me. ✌️&lt;/p&gt;
 </description>
-        <pubDate>Mon, 28 Nov 2016 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 28 Nov 2016 00:00:00 -0800</pubDate>
         <link>https://josh-peterson.com/blog/welcome/</link>
         <guid isPermaLink="true">https://josh-peterson.com/blog/welcome/</guid>
         

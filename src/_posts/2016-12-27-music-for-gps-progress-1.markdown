@@ -1,35 +1,23 @@
 ---
 layout: post
-title: "consumemusic.online"
-date: 2016-12-14
+title: "Music for GPS"
+date: 2016-12-22
 categories:
   - Work-in-Progress
 description: 
-image: https://josh-peterson.com/assets/img/consume-music-coin.png
-image-sm: https://josh-peterson.com/assets/img/consume-music-coin.png
-excerpt: "Like Snapchat, but for the entirety of all music in existence."
+image: "assets/img/music-for-gps-hero-large.jpg"
+image-sm: "assets/img/music-for-gps-hero-small.jpg"
+excerpt: "Working towards location based generative music."
 
 ---
 
-<div class="video-container"><iframe src="https://player.vimeo.com/video/174049474?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+  
+
+<!-- ![Prototypes](/assets/img/music-for-gps-joanne-screenshot.png) -->
+<img style="max-width: 400px; margin: 0 auto" src="/assets/img/music-for-gps-joanne-screenshot.png" alt="Joanne McNeil Tweet">
+
 
 <p class="normal-size">I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:</p>
-  
->*Turn up your speakers. You are now listening to a sound that will never be heard again.*
-> 
->*On June 20, 2015, a user named midi_man posted a link on reddit to the largest midi collection in existence. They had crawled hundreds of midi sites, and assembled virtually all of the files publicly available into one archive. 130,000 files / 3.65Gb of pure midi. This archive represents the cumulative musical achievement of humankind, as well as several animal species.*
->
->*This site plays the archive from front to back. As each visitor plays part of a song, that portion is consumed and will never be played again by anyone else.*
->
->*Your browser started playing where someone else left off. But you don’t have to stay here - you can scroll and listen to whatever remains. You can even takeover another listener’s song and kick them off their spot. Everything you hear will be heard once, and only once. Together, we can all burn this one down.*
-
-<br>
-I made up some prototypes in Sketch:
-<br>
-
-![Prototypes](/assets/img/consume-music-prototypes.png)
-<br>
-
 
 All the songs are in the archive laid out end to end, left to right.
 

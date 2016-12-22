@@ -27,7 +27,7 @@ Is all art the same, really? It's incumbent upon artists working with technology
 
 I disagree. It’s a poetic idea, but it’s ultimately not the most useful.
 
-Take the example of film. First photography was invented, then the movie camera. Because of technology, a new media and a new art form came into existence. Over the next 100 years, you have great filmmakers making statements that could have not been made with live performance.
+Take the example of film. First photography was invented, then the movie camera. Because of technology, a new medium and a new art form came into existence. Over the next 100 years, you have great filmmakers making statements that could have not been made with live performance.
 
 Some might argue that the themes are the same. With film and theater, aren’t we still talking about fundamentally the same things – relationships between people, the human condition? Yes, but the experience is different. And that’s the problem with saying “all art is the same.” It’s placing knowledge over experience, and that’s the wrong approach to take when making art.
 
@@ -35,7 +35,7 @@ Great art is predicated on the close study of experience. That’s aesthetics. I
 
 So yes, you and I were both born and will both die. We both have parents, friends, lovers, struggles, triumphs. But we’re ultimately living different experiences. New media is worth making art with because it gives us new types of experiences. New sensations, new forms, new relationships. 
 
-If you still don’t see things the way I do, we could talk about how John Lennon said sometimes a given song would sound fast, other times slow. Or about how when you read a piece of Shakespeare as a parent midway through life, it’s going to say to you different things than when you read it as a teenager. Or about how right now the artists who are not white males are still fighting just to have a seat at a table.  How the ideas contained within the sphere of art are all impoverished in want of different points of view.
+If you still don’t see things the way I do, we could talk about how John Lennon said some days a given song would sound fast, other days slow. Or about how when you read a piece of Shakespeare as a parent midway through life, it’s going to say to you different things than when you read it as a teenager. Or about how right now the artists who are not white males are still fighting just to have a seat at a table.  How the ideas contained within the sphere of art are all impoverished in want of different points of view.
 
 We don’t have to talk about those things though. What I know is that with experience and knowledge, knowledge comes after. Experience comes first. Art’s radical conviction – that beauty is worth defending from other forces in society – is based upon this fact. Experience is worthwhile in itself, and rewards exploring. Being comes before measuring. Even in the measuring, it is always there. And you can’t say two things are the same without holding a stick up to them first. If you’re saying all things are the same, you’re not really seeing them as they are.
 

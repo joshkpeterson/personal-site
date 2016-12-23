@@ -7,45 +7,27 @@ categories:
 description: 
 image: "http://localhost:4000/assets/img/music-for-gps-hero-large.jpg"
 image-sm: "http://localhost:4000/assets/img/music-for-gps-hero-small.jpg"
-excerpt: "Working towards location based generative music."
+excerpt: "Location-based generative music promises a different kind of augmented reality."
 
 ---
 
   
 
-<!-- ![Prototypes](/assets/img/music-for-gps-joanne-screenshot.png) -->
 <img style="max-width: 400px; margin: 0 auto" src="/assets/img/music-for-gps-joanne-screenshot.png" alt="Joanne McNeil Tweet">
 
+<!-- 
+<p class="normal-size">I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:</p> -->
 
-<p class="normal-size">I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:</p>
 
-All the songs are in the archive laid out end to end, left to right.
+In college I made a lot of work about place. I was fascinated by how our surroundings seep into our identities. The city is a costume, one that we all share. And you perform a different role in the city than in in the woods.
 
-You can scroll horizontally. To the left is the boneyard of all the songs that have been played. To the right are unplayed songs, mostly. The song you’re playing has a red leading edge at the current time. You can click on any unplayed song to start playing it instead. 
+I wanted to make people look at their environments with a similar perspective to the one I had, noticing how they make you feel and the narrative they broadcast. It was a very John Cage perspective, actually, in that involved looking at the world in a raw sort of way...observing its aesthetic qualities the way you would if they were a work of art. There's also a sense of wonder that I thought was important.
 
-You can see when someone else is currently playing a song because the edge is yellow. If you click on their song, they’ll get booted to the next available blue space. You’ll pick up where they left off.
-
-The piece is meant to be compared / contrast with how we collectively create and consume media in communities online. It's an opportunity for the swarm behavior of thousands of people on the internet, usually only imagined or experienced incidentally, to be brought into focus.
-
-There’s something further, though.
+Today, I'm not sure that trying to engender this perspective is a good end for art to strive for in and of itself. Maybe it will happen along the way, but I think art should be about creating experiences and the focus should be on the experience you're leading someone through. But some of the tactics I'm still interested in - discovering features in the physical world that can become compositional hooks for works that then use them as scaffolding.
 
 <br>
-<br>
 
-<img style="max-width: 400px; margin: 0 auto" src="/assets/img/mario.gif" alt="Mario Text Gif">
-
-
-But - with the digital, what is also summoned at will are rules and relationships. What if, by setting some rules, we make a digital artifact consumable?
- 
-It was here, but then you put it in your body, and now it's gone. At some point along the way it was transformed into something else. The object is no longer here.
-
-Or...it's still here, but it has a different state? Or at least the idea of it is still here, but with a different state attached. Maybe the experience of it is the only thing that is ever consumed. Even with an eternal music object, the experience was always consumed.
-<br>
-<br>
-<br>
-<br>
-
-## This site is about how we bracket infinity.
+## I'm doing some experiments in location-based generative music.
 <br>
 
 Music, as a cultural entity, seems infinite. All the music in all the earth – now and since forever – who can count it all? But it’s actually not infinite. Music requires people, to create it and to experience it, and there is a finite number of people that have ever lived. 
@@ -61,6 +43,9 @@ Or maybe it just directs the mind’s eye toward the gap between the real infini
 But weirdly, this abstraction brings a materiality. First, when you make a digital object consumable, its digital representation takes on a materiality that wasn't there before. It's graphical interface no longer represents that thing, it IS that thing. Second, when you bring all of music together into one, its wholeness becomes something you can directly experience, even if it's so large you have to travel to do so.
 
 <br>
+
+<div class="video-container"><iframe src="https://player.vimeo.com/video/174049474?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
 <br>
 
 ## This site is about when we say two things are different, and when we say they're the same.

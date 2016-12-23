@@ -8,6 +8,11 @@ description:
 image: "http://localhost:4000/assets/img/music-for-gps-hero-large.jpg"
 image-sm: "http://localhost:4000/assets/img/music-for-gps-hero-small.jpg"
 excerpt: "Location-based generative music promises a different kind of augmented reality."
+mast-back: "#e50200"
+mast-date: "#e50200"
+mast-title: "#e50200"
+mast-categories: "#e50200"
+body-color: "#1c1e13"
 
 ---
 
@@ -44,7 +49,7 @@ But weirdly, this abstraction brings a materiality. First, when you make a digit
 
 <br>
 
-<div class="video-container"><iframe src="https://player.vimeo.com/video/174049474?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://player.vimeo.com/video/174049474?title=0&byline=0&portrait=0&color=e50200" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <br>
 

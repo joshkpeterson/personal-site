@@ -327,7 +327,7 @@ header {
 
   height: 35em;
 
-  color: $color-alpha--light;
+  color: $color-white;
   background-color: $color-black;
 
   // &:after {
@@ -417,15 +417,15 @@ header {
     }
   }
 
-  &--alpha--light {
-    color: $color-alpha--light;
+  // &--alpha--light {
+  //   color: $color-alpha--light;
 
-    &:hover,
-    &:active,
-    &:focus {
-      color: $color-alpha--light;
-    }
-  }
+  //   &:hover,
+  //   &:active,
+  //   &:focus {
+  //     color: $color-alpha--light;
+  //   }
+  // }
 }
 
 /**

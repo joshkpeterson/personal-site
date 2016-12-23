@@ -8,6 +8,10 @@ description:
 image: https://josh-peterson.com/assets/img/all-art-same-hero-large.jpg
 image-sm: https://josh-peterson.com/assets/img/all-art-same-hero-large.jpg
 excerpt: "Can artists working with new media say anything truly new?"
+mast-back: "#7fff8f"
+mast-date: "#7fff8f"
+mast-title: "#7fff8f"
+mast-categories: "#7fff8f"
 
 ---
 

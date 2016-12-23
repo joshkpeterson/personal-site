@@ -433,13 +433,13 @@ header {
  */
 .post {
   width: 90%;
-  max-width: $mq-md;
+  max-width: 650px;
   margin: 0 auto;
 
   font-family: $font-post;
 
   @media (min-width: $mq-md) {
-    width: 55%;
+    width: 70%;
   }
 
   h1, 

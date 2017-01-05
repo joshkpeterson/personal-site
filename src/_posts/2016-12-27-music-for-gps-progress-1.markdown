@@ -97,17 +97,17 @@ That this will use synthesis is actually one of the key differences from prior a
 What I want to make is not just one piece of music, but a platform that many composers can use to make location-based music. Most of the the technology needed to make something really amazing already exists, but someone needs to trailblaze and assemble the pieces. There will be some holes to fill, but we won’t know what those are until someone tries. Ultimately, though, I see this as similar to creating a new instrument - there are thousands of different musical and artistic statements that could come from giving composers a set of hooks into location.
 
 Some examples of hooks, the API of location:
-GPS coordinates
-"Human-readable location" AKA are you on the sidewalk? In the street? In a park?
-City Data
-Movement
-Behavior (e.g. this person just walked down this block, but then when they turn around and retrace their steps)
-Weather conditions
-Time (of day, of the week, of the year)
+<br>GPS coordinates
+<br>"Human-readable location" AKA are you on the sidewalk? In a park?
+<br>City Data
+<br>Movement
+<br>Behavior (e.g. this person just walked down this block, but then when they turn around and retrace their steps)
+<br>Weather conditions
+<br>Time (of day, of the week, of the year)
 
-1. What are the qualities of a location that are useful to composers?
-2. Can I abstract them and make so musicians can write for them?
-3. Are there certain types of musical gestures or synthesis techniques that lend themselves to being controlled with this data?
+<br>1. What are the qualities of a location that are useful to composers?
+<br>2. Can I abstract them and make so musicians can write for them?
+<br>3. Are there certain types of musical gestures or synthesis techniques that lend themselves to being controlled with this data?
 
 Furthermore, can we make this so that music doesn’t have to be composed for each location individually, but using location data, we render out music for large areas? Or for the whole world? This takes exploration to an extreme.
 

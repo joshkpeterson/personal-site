@@ -5,8 +5,8 @@
     <description>Media Art</description>
     <link>https://josh-peterson.com/</link>
     <atom:link href="https://josh-peterson.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Jan 2017 01:55:39 -0500</pubDate>
-    <lastBuildDate>Thu, 05 Jan 2017 01:55:39 -0500</lastBuildDate>
+    <pubDate>Thu, 05 Jan 2017 02:00:49 -0500</pubDate>
+    <lastBuildDate>Thu, 05 Jan 2017 02:00:49 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -88,19 +88,17 @@
 &lt;p&gt;What I want to make is not just one piece of music, but a platform that many composers can use to make location-based music. Most of the the technology needed to make something really amazing already exists, but someone needs to trailblaze and assemble the pieces. There will be some holes to fill, but we won’t know what those are until someone tries. Ultimately, though, I see this as similar to creating a new instrument - there are thousands of different musical and artistic statements that could come from giving composers a set of hooks into location.&lt;/p&gt;
 
 &lt;p&gt;Some examples of hooks, the API of location:
-GPS coordinates
-“Human-readable location” AKA are you on the sidewalk? In the street? In a park?
-City Data
-Movement
-Behavior (e.g. this person just walked down this block, but then when they turn around and retrace their steps)
-Weather conditions
-Time (of day, of the week, of the year)&lt;/p&gt;
+&lt;br /&gt;GPS coordinates
+&lt;br /&gt;“Human-readable location” AKA are you on the sidewalk? In a park?
+&lt;br /&gt;City Data
+&lt;br /&gt;Movement
+&lt;br /&gt;Behavior (e.g. this person just walked down this block, but then when they turn around and retrace their steps)
+&lt;br /&gt;Weather conditions
+&lt;br /&gt;Time (of day, of the week, of the year)&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;What are the qualities of a location that are useful to composers?&lt;/li&gt;
-  &lt;li&gt;Can I abstract them and make so musicians can write for them?&lt;/li&gt;
-  &lt;li&gt;Are there certain types of musical gestures or synthesis techniques that lend themselves to being controlled with this data?&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;br /&gt;1. What are the qualities of a location that are useful to composers?
+&lt;br /&gt;2. Can I abstract them and make so musicians can write for them?
+&lt;br /&gt;3. Are there certain types of musical gestures or synthesis techniques that lend themselves to being controlled with this data?&lt;/p&gt;
 
 &lt;p&gt;Furthermore, can we make this so that music doesn’t have to be composed for each location individually, but using location data, we render out music for large areas? Or for the whole world? This takes exploration to an extreme.&lt;/p&gt;
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Music for GPS"
-date: 2016-12-22
+date: 2017-01-04
 categories:
   - Work-in-Progress
 description: 
@@ -57,7 +57,7 @@ If we know whether someone is standing still or walking, or even how fast they�
 
 Another example: you’re sitting on the subway. The train slows to a stop, and the music subdues. The train starts, the music picks back up again. Next stop - the ding of the doors echoes in reverb added to your ears. When you stand, and get off the train, the piece moves to a new section. You walk up the stairs and the sonic space opens up from your cramped subterranean thing as you reach the surface.
 
-With this I’m shooting for an uncanny digitally-mediated interaction, similar to [another project of mine](http://josh-link.com). I guess I like projects where I identify an idea for an interaction where A) I’ve never experienced something quite like it and B) I bet that actually doing it feels different than I imagine. There you have something worth *doing*, not just thinking about.
+With this I’m shooting for an uncanny digitally-mediated interaction, similar to [another project of mine](https://josh-peterson.com/blog/light-progress-1/). I guess I like projects where I identify an idea for an interaction where A) I’ve never experienced something quite like it and B) I bet that actually doing it feels different than I imagine. There you have something worth *doing*, not just thinking about.
 
 With Music for GPS, might might be like you’re *playing* music by walking around. I’m a musician, and there’s something amazing about how playing an instrument lets you, as you start to feel an emotion tied to the music, take an action with your body that heightens that feeling. Then on the other hand, there’s something amazing about exploring the visual world by walking through it. I just think it might be worthwhile to combine the two. When playing music, you’re moving in order to hear. When walking, you’re moving in order to see. But what if you were walking to hear as well as see? Would that be exciting? Would that be new?
 

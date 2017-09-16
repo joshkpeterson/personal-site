@@ -5,8 +5,8 @@ $font-header: 'Space Mono', monospace;
 $font-body: 'Inconsolata', monospace;
 $font-post: 'Lora', serif;
 
-$color-alpha: #9f8f68;
-$color-alpha--light: #f5f3ef;
+$color-alpha: #cb8ffd;
+$color-alpha--light: #e1c1ff;
 
 $color-black: #0a0a0a;
 $color-grey: #f8f9f9;
@@ -64,7 +64,7 @@ h1, h2 {
 }
 
 h1 {
-  $fontSize: 3em;
+  $fontSize: 2em;
 
   @media (min-width: $mq-md) {
     font-size: $fontSize;
@@ -76,13 +76,13 @@ h1 {
 }
 
 p {
-  margin: 0 0 0.75em;
+  margin: 0 0 1.3em;
 }
 
 a {
   color: $color-black;
   text-decoration: none;
-  transition: color 0.4s ease-in-out;
+  transition: color 0.3s ease-in-out;
 
   &:hover,
   &:active,
@@ -104,6 +104,12 @@ img {
 ol, ul {
   margin: 0;
   padding: 0;
+
+  ul {
+    li {
+      margin-left: 24px;
+    }
+  }
 
   list-style-type: none;
 }

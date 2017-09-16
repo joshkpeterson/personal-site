@@ -2,6 +2,21 @@
  * Tabs
  * On the Blog page for posts and categories
  */
+
+header {
+  background: white;
+  width: auto;
+  height: auto;
+  position: relative;
+
+  &.header--nav {
+    @supports(mix-blend-mode: screen) {
+      mix-blend-mode: screen;
+    }
+  }
+}
+
+ 
 .tabs {
   @extend %letter-spacing;
 
@@ -33,6 +48,10 @@
 }
 
 .tab {
+  @supports(mix-blend-mode: lighten) {
+    mix-blend-mode: screen;
+  }
+  background-color: white;
 
   &.active {
     will-change: opacity;
@@ -46,14 +65,45 @@
  */
 .previews {
 
+  &__bio {
+    color: white;
+
+    a:not(:active):not(:hover):not(:focus) {
+      color: white;
+    }
+
+    &--indented {
+      padding-left: 16px;
+
+      .fa {
+        font-size: 14px;
+      }
+    }
+
+    .fa-lg {
+      font-size: 1.6em;
+      padding: 8px 8px 8px 0;
+    }
+
+    @media (max-width: $mq-md) {
+      ul, span {
+        font-size: 22px;
+      }
+    }
+  }
+
   &__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
+    // width: 100%;
     padding: 2em;
+
+    @media (min-width: $mq-md) {
+      width: 45%;
+    }
 
     color: $color-white;
 
@@ -102,17 +152,17 @@
 
   &__date {
     font-family: $font-header;
-    color: $color-black;
+    color: #0084da;
   }
 
   &__header {
-    color: $color-alpha;
+    color: black;
 
     margin-bottom: 0.5em;
   }
 
   &__excerpt {
-    color: $color-black;
+    color: #0084da;
   }
 
   &__more {
@@ -193,11 +243,11 @@
   }
 
   &__header {
-    color: $color-alpha;
+    color: $color-black;
   }
 
   &__count {
-    color: $color-black;
+    color: #0084da;
   }
 
   &__more {
@@ -256,10 +306,10 @@
 
   &__social {
     display: flex;
-    margin-top: 1em;
+    margin-top: 2px;
 
     @media (min-width: $mq-sm) {
-      margin-top: 0;
+      // margin-top: 0;
     }
 
     & > *:not(:last-child) {
@@ -280,9 +330,9 @@
   color: $color-white;
   background-color: $color-black;
 
-  &:after {
-    @extend %overlay;
-  }
+  // &:after {
+  //   @extend %overlay;
+  // }
 
   &__img {
     animation: fade-in 2s both;
@@ -347,6 +397,16 @@
     }
   }
 
+  &--alpha {
+    color: $color-alpha;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-alpha--light;
+    }
+  }
+
   &--white {
     color: $color-white;
 
@@ -356,6 +416,16 @@
       color: $color-white;
     }
   }
+
+  // &--alpha--light {
+  //   color: $color-alpha--light;
+
+  //   &:hover,
+  //   &:active,
+  //   &:focus {
+  //     color: $color-alpha--light;
+  //   }
+  // }
 }
 
 /**
@@ -363,13 +433,13 @@
  */
 .post {
   width: 90%;
-  max-width: $mq-md;
+  max-width: 650px;
   margin: 0 auto;
 
   font-family: $font-post;
 
   @media (min-width: $mq-md) {
-    width: 55%;
+    width: 70%;
   }
 
   h1, 
@@ -377,7 +447,7 @@
     line-height: 1.2;
   }
 
-  p:first-child {
+  p:first-child:not(.normal-size) {
     font-size: 1.25em;
   }
 
@@ -456,6 +526,7 @@
   &__social {
     display: flex;
     justify-content: flex-end;
+    list-style-type: none;
 
     & > *:not(:last-child) {
       margin-right: 1em;
@@ -535,5 +606,15 @@
     margin: 0 auto;
     padding-left: 1em;
     padding-right: 1em;
+  }
+}
+
+
+article {
+  ul {
+    list-style-type: unset;
+    ul {
+      list-style-type: circle;
+    }
   }
 }

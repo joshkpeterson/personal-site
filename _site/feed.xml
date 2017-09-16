@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Josh Peterson</title>
+    <description>Media Art</description>
+    <link>https://josh-peterson.com/</link>
+    <atom:link href="https://josh-peterson.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 23 Mar 2017 11:10:17 -0400</pubDate>
+    <lastBuildDate>Thu, 23 Mar 2017 11:10:17 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Music for GPS</title>
+        <description>&lt;p&gt;&lt;img style=&quot;max-width: 400px; margin: 0 auto&quot; src=&quot;/assets/img/music-for-gps-joanne-screenshot.png&quot; alt=&quot;Joanne McNeil Tweet&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- 
+&lt;p class=&quot;normal-size&quot;&gt;I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:&lt;/p&gt; --&gt;
+
+&lt;p&gt;In college I made a lot of work about place. I was fascinated by how our surroundings seep into our identities. The city is a costume, one that we all share. And you perform a different role in the city than in in the woods.&lt;/p&gt;
+
+&lt;p&gt;I wanted to make people look at their environments with a similar perspective to the one I had, noticing how they make you feel and the narrative they broadcast. It was a very John Cage perspective, actually, in that involved looking at the world in a raw sort of way…observing its aesthetic qualities the way you would if they were a work of art. There’s also a sense of wonder that I thought was important.&lt;/p&gt;
+
+&lt;p&gt;Today, I’m not sure that trying to engender this perspective is a good end for art to strive for in and of itself. Maybe it will happen along the way, but I think art should be about creating experiences, and the focus should be on the experience you’re leading someone through. I am, however, still interested in some of the tactics - discovering features in the physical world that can become compositional hooks for works that then use them as scaffolding.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;im-doing-some-experiments-in-location-based-generative-music&quot;&gt;I’m doing some experiments in location-based generative music.&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Location-based generative music has the potential to be a something really different. There’s a bit of a gap between what I’m envisioning and where we are at, but someone someday is going to make a piece of location-based generative music that’s profound. I want to set the scene for that.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Location-based:&lt;/em&gt; meaning as you walk around, you hear what the artist wanted you to hear in that place. Utilizes the GPS on your smartphone.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Generative:&lt;/em&gt; Not every note is laid down by hand by the artist, rather a set of rules is made for a given area. Music is then digitally synthesized on the spot (pun intended).&lt;/p&gt;
+
+&lt;p&gt;What if you composed music for each city block within a neighborhood? A listener would be able to traverse the neighborhood how they wished, and to experience the piece they’d have to explore the relationship between the actual place and the music. Your environment becomes an instrument, walking becomes a performance, and a piece becomes something discovered.&lt;/p&gt;
+
+&lt;p&gt;Imagine you’re walking down a busy city block. In your ears, you hear a steady cacophony in counterpoint to the sounds of the cars and people passing at random. You turn off onto a quiet side street, and the music follows suit. It’s a quiet gentle thing, but there’s a small hint at some anticipation. It builds. You turn the corner again, and are struck with a view of the water. You don’t just see it, you hear it.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;not-just-location-but-user-movement&quot;&gt;Not just location, but user movement&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s not just location though, it’s also your current activity - walking, standing still, running, riding in a car. Smartphones have accelerometer and gyroscope sensors, and iOS + Android also have higher-level API’s you can query and it will tell you what the current activity is. These are informed by black box algorithms that probably use machine learning and a bunch of other slick tricks that take a lot of the work out of working with raw sensor data.&lt;/p&gt;
+
+&lt;p&gt;If we know whether someone is standing still or walking, or even how fast they’re walking, we can use this information to let people perform music, too. Like say someone is standing still, and the music is in interlude. They start walking, slowly, and the music begins to crawl back up. When they get up to a brisk walk we’re really cooking again.&lt;/p&gt;
+
+&lt;p&gt;Another example: you’re sitting on the subway. The train slows to a stop, and the music subdues. The train starts, the music picks back up again. Next stop - the ding of the doors echoes in reverb added to your ears. When you stand, and get off the train, the piece moves to a new section. You walk up the stairs and the sonic space opens up from your cramped subterranean thing as you reach the surface.&lt;/p&gt;
+
+&lt;p&gt;With this I’m shooting for an uncanny digitally-mediated interaction, similar to &lt;a href=&quot;https://josh-peterson.com/blog/light-progress-1/&quot;&gt;another project of mine&lt;/a&gt;. I guess I like projects where I identify an idea for an interaction where A) I’ve never experienced something quite like it and B) I bet that actually doing it feels different than I imagine. There you have something worth &lt;em&gt;doing&lt;/em&gt;, not just thinking about.&lt;/p&gt;
+
+&lt;p&gt;With Music for GPS, might might be like you’re &lt;em&gt;playing&lt;/em&gt; music by walking around. I’m a musician, and there’s something amazing about how playing an instrument lets you, as you start to feel an emotion tied to the music, take an action with your body that heightens that feeling. Then on the other hand, there’s something amazing about exploring the visual world by walking through it. I just think it might be worthwhile to combine the two. When playing music, you’re moving in order to hear. When walking, you’re moving in order to see. But what if you were walking to hear as well as see? Would that be exciting? Would that be new?&lt;/p&gt;
+
+&lt;p&gt;[There are examples of art forms where the dancers actually control the musicians (see &lt;a href=&quot;https://en.wikipedia.org/wiki/Bomba_(Puerto_Rico)&quot;&gt;Bomba&lt;/a&gt;). But does it scale? 😜 Actually…is it private? That users will be able to do this on their own allows for  a different relationship with it.]&lt;/p&gt;
+
+&lt;p&gt;Places have aesthetic qualities that can be really evocative, just like music. Let’s put the two together. We see this in film - with music complimenting characters’ actions and/or the setting. This is rooted in other performance media, which is why I have the opera orchestra pit as the image up top. In one respect, this project is like making a film soundtrack for real life, in real time. But also, it’s kind of like a video game in that you get to move through space exploring virtual objects, which in this case is music. It’s similar to both film and video games, but different. It’s augmented reality, but not graphical. Audio will perhaps be a major component of a wave of AR games that will surely come.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;a-small-prototype-demo&quot;&gt;A small prototype demo&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the summer I made a browser-based prototype. When you open the page, your precise location is recorded. Then, as you walk, your distance from that initial spot is fed into a synth, controlling a number of parameters.&lt;/p&gt;
+
+&lt;p&gt;You can try the demo yourself (requires being on a phone, probably outdoors), or watch the video below.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://josh-peterson.com/musicforgps/distance&quot; target=&quot;_blank&quot;&gt;Demo page&lt;/a&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/174049474?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=e50200&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;digital-sound-synthesis&quot;&gt;Digital sound synthesis&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I need to call out one thing - the sounds you hear for this work will be synthesized. I’m not just triggering audio clips based on inhabiting a location. The latter has been done before, and it hasn’t really taken off, and there’s a good reason.&lt;/p&gt;
+
+&lt;p&gt;That this will use synthesis is actually one of the key differences from prior art that will make this great. It’s about molding the music to user actions in a way that is seamless, dynamic, and ultimately more immersive. The biggest reason may be more control over timing - for example, having a phrase finish right as you reach the end of a block. The speed of your gait could set the tempo. Or, the closer you are to an object, the timbre or the way a sound is articulated could change (this is not possible with just triggering static clips).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;platform-building-as-instrument-design&quot;&gt;Platform-building as instrument design&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What I want to make is not just one piece of music, but a platform that many composers can use to make location-based music. Most of the the technology needed to make something really amazing already exists, but someone needs to trailblaze and assemble the pieces. There will be some holes to fill, but we won’t know what those are until someone tries. Ultimately, though, I see this as similar to creating a new instrument - there are thousands of different musical and artistic statements that could come from giving composers a set of hooks into location.&lt;/p&gt;
+
+&lt;p&gt;Some examples of hooks, the API of location:
+&lt;br /&gt;GPS coordinates
+&lt;br /&gt;“Human-readable location” AKA are you on the sidewalk? In a park?
+&lt;br /&gt;City Data
+&lt;br /&gt;Movement
+&lt;br /&gt;Behavior (e.g. this person just walked down this block, but then when they turn around and retrace their steps)
+&lt;br /&gt;Weather conditions
+&lt;br /&gt;Time (of day, of the week, of the year)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;1. What are the qualities of a location that are useful to composers?
+&lt;br /&gt;2. Can I abstract them and make so musicians can write for them?
+&lt;br /&gt;3. Are there certain types of musical gestures or synthesis techniques that lend themselves to being controlled with this data?&lt;/p&gt;
+
+&lt;p&gt;Furthermore, can we make this so that music doesn’t have to be composed for each location individually, but using location data, we render out music for large areas? Or for the whole world? This takes exploration to an extreme.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;first-steps&quot;&gt;First steps:&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This section is about implementation details for the first stage of this project.&lt;/p&gt;
+
+&lt;p&gt;A series of prototypes in:
+&lt;br /&gt;Synthesized music,
+&lt;br /&gt;Using gps &amp;amp; movement sensor data,
+&lt;br /&gt;On iOS,
+&lt;br /&gt;Using audiokit.&lt;/p&gt;
+
+&lt;p&gt;The first stage in this project is going to be a series of formative experiments / prototypes / proof of concepts into different ways to link music to location and device activity. It’s going to be a native iOS app using the AudioKit framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Why prototype first:&lt;/em&gt; Because if the eventual goal is a great work of new media art (compelling music with novel interaction paradigm scaled to a large audience), this is the first step. Discover what can be done. Get others excited about it. I’m more interested in the mechanics than the musical statement right now (there can be many musical statements made with this “instrument”), so prototypes will be about probing different interaction scenarios and laying down the foundational tech to move into more music-focused exploration.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Why iOS:&lt;/em&gt;
+Maybe it’d be better to explain why &lt;em&gt;not&lt;/em&gt; web-based instead of native, and why not Android (or cross platform). I made an initial experiment (link) in the browser and explored several js music synthesis libraries. The libraries just don’t have the features you want to be able to make good instruments / music right off the bat. FM can only get you so far. Give me granular, give me other techniques. Give me utilities for organizing compositions. Also, the web audio API, unlike webGL for example, still has a long way to go and doen’t feel stable yet. I talked to experienced people who said differences between browsers were painful and damning - things would just sound different. Real time audio benefits from having high performance and so the web may just not be a great platform (although stay tuned for Web assembly in a few years).&lt;/p&gt;
+
+&lt;p&gt;Why not Android? iOS is a better platform for audio, and despite Android’s growing user base, iOS still probably holds the majority for my early adopter art/tech audience. Why not cross platform? I looked into some cross platform frameworks, and although libpd seemed somewhat feasible, it still sounded tricky. I’d love to do cross platform - iphone only is frankly a little elitist and I wish in general art apps could be cross platform when possible. But if my goal is to proof of concept for now, maybe it’d be better to choose the platform I can go the fastest and the farthest with, rather than trying to straddle two platforms out of the gate. It seems like it’d be better to come back later and port the best parts to Android, if there ends up being a need.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Why Audiokit:&lt;/em&gt;
+Out of all the libraries I looked at, it had the most features for making &lt;em&gt;music&lt;/em&gt;. Juce looked very legit, but more focused on DSP. I just want to be able to do some experiments without spending a ton of time doing really foundational things right now. I have a feeling some of the tooling will need to be improved for my specific use-case, but Audiokit looks rigorous and people seem to like it.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;intersections&quot;&gt;Intersections&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This work will intersect with a few other disciplines. It will benefit from advances in, but also could itself advance efforts in these areas:
+&lt;br /&gt;- Computer music tech / tooling, esp on mobile.
+&lt;br /&gt;- Geospatial data libraries and tools
+&lt;br /&gt;- Procedural art  - see the No Man’s Sky debacle. There are a lot of open questions. Challenges include making it regularly interesting and good, cause it’s often boring or bad.
+&lt;br /&gt;- Artificial Intelligence / Machine Learning / Creative AI with regards to music creation. See Google’s Project Magenta. Basically, advances in this will make it easier to make music “in the vein of x”. Meaning less rules you have to write from scratch.
+&lt;br /&gt;- Augmented Reality hardware / games / tooling&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;problems&quot;&gt;Problems:&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Composing music within a location based workflow needs to be ironed out. For example, I want to be able to draw polygons on a map and be able to access those in an environement adjacent to my coding IDE so I can iterate quickly.&lt;/p&gt;
+
+&lt;p&gt;What if I don’t always want to draw everything by hand? People have done &lt;a href=&quot;https://peteris.rocks/blog/openstreetmap-city-blocks-as-geojson-polygons/&quot;&gt;amazing work recently that may be helpful&lt;/a&gt;, but I need to first try and figure out what I want, and then make it.&lt;/p&gt;
+
+&lt;p&gt;Geo data / city may be a fruitful source material to allow for procedurally generating music that has a relationship to a given place. But how?&lt;/p&gt;
+
+&lt;p&gt;Most musicians, even those working with computer music, constrain themselves to traditional rhythm and harmony. That’s a mistake that would be like if jimi hendrix got a hold of an electric guitar and decided to only play classical guitar songs with no distortion. There’s a lot of musical potential and new sounds that computers allow for. This app will not make that mistake. On the other hand, I’ve experienced an academic hierarchy that says that only if you abandon melody/harmony can you make real art. It’s hostile to audiences, amounts to an erasure of culture and is bad bad bad. Toxic. I think a hybrid approach is best. Noise music, sound art, whatever you want to call it - it’s going to incorporate some of that. It’s going to have melody sometimes too. It’s going to be music. But you won’t be able to dance or hum to all of it :)&lt;/p&gt;
+
+&lt;p&gt;GPS kinda sucks. First - goes without saying maybe that it’s only really an outdoors thing. Even outdoors, I’ll have to account for bad data, sudden huge jumps / corrections. Basically clean the data up a lot, and I  fully expect it to be limiting compositionally. Tall buildings like those in Manhattan make getting a signal hard at times, too.&lt;/p&gt;
+
+&lt;p&gt;Computer music is haaarrrd. Need to know your tools really really well, takes a long time + big learning curve. Not sure if Audiokit has all the features I’ll want to really make great music, might need to contribute / port things over from SuperCollider or other languages. Not sure if making cross platform mobile language is ultimately feasible, because I don’t know how much you can abstract away.&lt;/p&gt;
+
+&lt;p&gt;Opportunity: Apple headphones will get sensors that tell you orientation, theoretically/eventually. Holy shit. You’ll be able to place sound in space, and when you turn your head, the sound will stay there. Then you’ll have true augmented audio reality. What do we call this? Audi-R? Augio? AAR? I’m just excited to have sound sources that people can walk past, and it’ll be perceived as if the audio was eminating from that actual spot.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Header image credit: Flickr user &lt;a href=&quot;https://flic.kr/p/b6QGHB&quot;&gt;ydylg&lt;/a&gt; under &lt;a href=&quot;https://creativecommons.org/licenses/by-nc-nd/2.0/&quot;&gt;Creative Commons license&lt;/a&gt;.&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-go-exploring&quot;&gt;Let’s go exploring.&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 -0500</pubDate>
+        <link>https://josh-peterson.com/blog/music-for-gps-progress-1/</link>
+        <guid isPermaLink="true">https://josh-peterson.com/blog/music-for-gps-progress-1/</guid>
+        
+        
+        <category>Work-in-Progress</category>
+        
+      </item>
+    
+      <item>
+        <title>Is all art the same?</title>
+        <description>&lt;p&gt;There are different levels to same-ness. Different ways two things can be said to be “the same.”&lt;/p&gt;
+
+&lt;p&gt;Some examples, each being different:&lt;/p&gt;
+&lt;div&gt;- Two different songs. But we call both of them songs.&lt;/div&gt;
+
+&lt;div&gt;- The same song, but two different copies. Different instances.&lt;/div&gt;
+
+&lt;div&gt;- The same song, but listened to at different times. Different experiences.&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;One time I was discussing art with some people. Someone said, “Art made with new technology isn’t really doing anything new. All art is getting at the same thing.” Relationships. Mystery. Love, life, death.&lt;/p&gt;
+
+&lt;p&gt;Is all art the same, really? It’s incumbent upon artists working with technology to know whether they agree with this or not.&lt;/p&gt;
+
+&lt;p&gt;I disagree. It’s a poetic idea, but it’s ultimately not the most useful.&lt;/p&gt;
+
+&lt;p&gt;Take the example of film. First photography was invented, then the movie camera. Because of technology, a new medium and a new art form came into existence. Over the next 100 years, you have great filmmakers making statements that could have not been made with live performance.&lt;/p&gt;
+
+&lt;p&gt;Some might argue that the themes are the same. With film and theater, aren’t we still talking about fundamentally the same things – relationships between people, the human condition? Yes, but the experience is different. And that’s the problem with saying “all art is the same.” It’s placing knowledge over experience, and that’s the wrong approach to take when making art.&lt;/p&gt;
+
+&lt;p&gt;Great art is predicated on the close study of experience. That’s aesthetics. It’s about &lt;strong&gt;seeing&lt;/strong&gt; what is actually there. Yes, your art contains ideas. But first people have to see it. It’s this space - between raw experience and the body of ideas that’s already assimilated into culture - where there is room for artists to expand upon how we understand the world.&lt;/p&gt;
+
+&lt;p&gt;So yes, you and I were both born and will both die. We both have parents, friends, lovers, struggles, triumphs. But we’re ultimately living different experiences. New media is worth making art with because it gives us new types of experiences. New sensations, new forms, new relationships.&lt;/p&gt;
+
+&lt;p&gt;If you still don’t see things the way I do, we could talk about how John Lennon said some days a given song would sound fast, other days slow. Or about how when you read a piece of Shakespeare as a parent midway through life, it’s going to say to you different things than when you read it as a teenager. Or about how right now the artists who are not white males are still fighting just to have a seat at a table.  How the ideas contained within the sphere of art are all impoverished in want of different points of view.&lt;/p&gt;
+
+&lt;p&gt;We don’t have to talk about those things though. What I know is that with experience and knowledge, knowledge comes after. Experience comes first. Art’s radical conviction – that beauty is worth defending from other forces in society – is based upon this fact. Experience is worthwhile in itself, and rewards exploring. Being comes before measuring. Even in the measuring, it is always there. And you can’t say two things are the same without holding a stick up to them first. If you’re saying all things are the same, you’re not really seeing them as they are.&lt;/p&gt;
+
+&lt;p&gt;I want art that shows me something I can’t place. Because only then will I take the risk of really looking. Only then will I feel the exhilaration of really looking. Only in that struggle will I make a new box for that thing to go into. Out of this challenge we will form new words. Only with these new words will we share what we can’t explain.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Dec 2016 00:00:00 -0500</pubDate>
+        <link>https://josh-peterson.com/blog/is-all-art-the-same/</link>
+        <guid isPermaLink="true">https://josh-peterson.com/blog/is-all-art-the-same/</guid>
+        
+        
+        <category>Manifestos</category>
+        
+      </item>
+    
+      <item>
+        <title>consumemusic.online</title>
+        <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/174049474?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Turn up your speakers. You are now listening to a sound that will never be heard again.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;On June 20, 2015, a user named midi_man posted a link on reddit to the largest midi collection in existence. They had crawled hundreds of midi sites, and assembled virtually all of the files publicly available into one archive. 130,000 files / 3.65Gb of pure midi. This archive represents the cumulative musical achievement of humankind, as well as several animal species.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;This site plays the archive from front to back. As each visitor plays part of a song, that portion is consumed and will never be played again by anyone else.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;Your browser started playing where someone else left off. But you don’t have to stay here - you can scroll and listen to whatever remains. You can even takeover another listener’s song and kick them off their spot. Everything you hear will be heard once, and only once. Together, we can all burn this one down.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+I made up some prototypes in Sketch:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/consume-music-prototypes.png&quot; alt=&quot;Prototypes&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;All the songs are in the archive laid out end to end, left to right.&lt;/p&gt;
+
+&lt;p&gt;You can scroll horizontally. To the left is the boneyard of all the songs that have been played. To the right are unplayed songs, mostly. The song you’re playing has a red leading edge at the current time. You can click on any unplayed song to start playing it instead.&lt;/p&gt;
+
+&lt;p&gt;You can see when someone else is currently playing a song because the edge is yellow. If you click on their song, they’ll get booted to the next available blue space. You’ll pick up where they left off.&lt;/p&gt;
+
+&lt;p&gt;The piece is meant to be compared / contrast with how we collectively create and consume media in communities online. It’s an opportunity for the swarm behavior of thousands of people on the internet, usually only imagined or experienced incidentally, to be brought into focus.&lt;/p&gt;
+
+&lt;p&gt;There’s something further, though.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;max-width: 400px; margin: 0 auto&quot; src=&quot;/assets/img/mario.gif&quot; alt=&quot;Mario Text Gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But - with the digital, what is also summoned at will are rules and relationships. What if, by setting some rules, we make a digital artifact consumable?&lt;/p&gt;
+
+&lt;p&gt;It was here, but then you put it in your body, and now it’s gone. At some point along the way it was transformed into something else. The object is no longer here.&lt;/p&gt;
+
+&lt;p&gt;Or…it’s still here, but it has a different state? Or at least the idea of it is still here, but with a different state attached. Maybe the experience of it is the only thing that is ever consumed. Even with an eternal music object, the experience was always consumed.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;this-site-is-about-how-we-bracket-infinity&quot;&gt;This site is about how we bracket infinity.&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Music, as a cultural entity, seems infinite. All the music in all the earth – now and since forever – who can count it all? But it’s actually not infinite. Music requires people, to create it and to experience it, and there is a finite number of people that have ever lived.&lt;/p&gt;
+
+&lt;p&gt;Still, what if we assembled all of the music into a whole, as much as we could at least?&lt;/p&gt;
+
+&lt;p&gt;What if we took all of the pieces, that were before so disparate, and by creating relationships between them, formed a mass out of them, that we could treat as one? That you could actually be presented with, that you actually had the means to explore if you had enough time?&lt;/p&gt;
+
+&lt;p&gt;Assembling all the midi on the internet is not the same as assembling all the music in the world. The internet doesn’t contain all the music, just like it doesn’t contain all the knowledge, much less all the experience. But the internet was and is the primary vehicle for cheesy midi adaptations of songs, and so this archive is maybe a solid attempt at building a corpus that represents an entirety.&lt;/p&gt;
+
+&lt;p&gt;Or maybe it just directs the mind’s eye toward the gap between the real infinity, and our best attempt. But who knows how big that gap is? Because your idea of the real infinite is just an abstraction anyway. Well, this app is just an abstraction too.&lt;/p&gt;
+
+&lt;p&gt;But weirdly, this abstraction brings a materiality. First, when you make a digital object consumable, its digital representation takes on a materiality that wasn’t there before. It’s graphical interface no longer represents that thing, it IS that thing. Second, when you bring all of music together into one, its wholeness becomes something you can directly experience, even if it’s so large you have to travel to do so.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;this-site-is-about-when-we-say-two-things-are-different-and-when-we-say-theyre-the-same&quot;&gt;This site is about when we say two things are different, and when we say they’re the same.&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Music is not infinite. So in your mind, assemble the totality of ALL of music. What’s the difference between that and infinity? Between the all-of-it and the infinite?&lt;/p&gt;
+
+&lt;p&gt;Thinking about all of music is tough because music isn’t just the artifacts, it’s also the lived experience of the thing. We typically have one of a couple different situations: 1) Listening to a concert, a live performance that may only exist in that moment, shared together amongst a dozen, a hundred, a hundred thousand people. 2) Listening to recorded music, a static digital artifact of a performance, alone.&lt;/p&gt;
+
+&lt;p&gt;consumemusic.online is an inversion of this. Thousands of people together will experience a one-time performance of a digital artifact, a concert that’s thousands of hours long. But formally something weird is happening, because each person will only experience a small piece.&lt;/p&gt;
+
+&lt;p&gt;It’s a parallel to our experience of social media. How often have you heard of someone complaining of some phenomenon “on Facebook” which you yourself have not witnessed? And yet we all refer to “Facebook” as if it’s one entity, when it’s really maybe closer to our own little room. Totally unique, totally dynamic, different from everyone else’s and different from one moment to the next. Maybe we don’t appreciate this fact. But if you pull up consumemusic.online and you’re the single solitary person that heard “Hey Jude,” maybe you will.&lt;/p&gt;
+
+&lt;p&gt;And if you think about the totality of music from day to day, this is what is happening all along. All of these individual experiences are happening distributed throughout millions of different places, but together they sum up to the sublime reality of what music actually is. No one person gets to experience that though.&lt;/p&gt;
+
+&lt;p&gt;When two people each view a work of art, and that work of art shows them each something different, how different does the thing have to be for us to no longer say they saw the same art? If a work’s identity isn’t in the details, what is it in?&lt;/p&gt;
+
+&lt;p&gt;Everyone who goes to the site will experience this piece of net art. But will everyone experience it the same? Maybe to prove they won’t, we’ll show each of them something different. Maybe we’ll play them each a different song. And when they come back again, we’ll do the same. Something different.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Dec 2016 00:00:00 -0500</pubDate>
+        <link>https://josh-peterson.com/blog/consume-music-online-progress-1/</link>
+        <guid isPermaLink="true">https://josh-peterson.com/blog/consume-music-online-progress-1/</guid>
+        
+        
+        <category>Work-in-Progress</category>
+        
+      </item>
+    
+      <item>
+        <title>An Electronic Earthwork</title>
+        <description>&lt;p&gt;How might we make interactive land art? This project is one answer for this question, and I am open-sourcing it. This work will take a number of months to execute and I’ll be sharing updates at major milestones, with in-progress information about hardware, software, materials, process, and theory.&lt;/p&gt;
+
+&lt;p&gt;While I was in college in Seattle I made an interactive project using a big handheld spotlight, a pair of walkie-talkies, and an arduino. Seattle is very hilly, and on one hill I put the spotlight. Then from another hill one mile away, you could control the spotlight with your voice. At that distance, the light looked like any other streetlight – a tiny spec. But it only turned on when you were speaking into the walkie-talkie. I made a short film about setting the project up and using it, the light flashing on and off with every syllable you spoke.&lt;/p&gt;
+
+&lt;p&gt;I want to make another version of this project in Seattle again, but at a very large scale. Seattle is surrounded by mountains – to the east are the Cascades, and to the west are the Olympics. They’re a defining feature of the landscape – they’re the horizon, the walls of the wilderness that contains the city. I want to put a light out in these mountains, 35 miles away, that anyone can control in the city by visiting a url on their phone and speaking into it.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/24302805?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Some thoughts about what the piece means to me:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It may turn out to be an extreme digital interaction that will be worthwhile in itself. Someone using this will probably never have experienced anything like it before. Seeing a light turn on when you speak at the distance of 1 mile, or even 100 yards, is uncanny. At 35 miles it may be really strange and awe-inspiring.&lt;/li&gt;
+  &lt;li&gt;In one sense, activating the light is conceptually similar with posting something on the internet. You hit a button on your phone with your fingers, and thousands of miles away a server does some unknown task, and then pixels on someone else’s phone sends light into their eyeballs. I’m interested in playing with bringing this action-at-a-distance to the largest scale that one person can immediately experience.&lt;/li&gt;
+  &lt;li&gt;What is a city? What are the limits of a city? All these lights and other utilities that surround us and are interactive to varying degrees, what do they say to us? Are they benevolent?&lt;/li&gt;
+  &lt;li&gt;I take a lot of inspiration from the Light and Space movement, especially Robert Irwin.
+    &lt;ul&gt;
+      &lt;li&gt;The idea of site-specific art: a piece that leverages the features of its environment. It can only exist in that place it was designed for – if you move it, it’s changed. The context is part of the work.&lt;/li&gt;
+      &lt;li&gt;The tactic of stripping a work down further and further because that’s one way to make art that can get at fundamental principles of experience. This piece is really just one pixel, far away.&lt;/li&gt;
+      &lt;li&gt;A fascination with the perception of space. I’m interested in how drawing attention to this tiny light as far as the eye can see will protract or flatten someone’s sense of distance and their larger environment.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-tech&quot;&gt;The Tech&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/beacon-redux-diagram.jpg&quot; alt=&quot;Project Diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What follows is an audit over all the bases I have to cover to execute this project.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-light&quot;&gt;1. The Light&lt;/h3&gt;
+
+&lt;p&gt;A light visible at 35 miles needs to be extremely bright, so only a radio tower beacon will do. This will be powered by a solar generator consisting of a solar panel, a battery, and a BMS (Battery Management System) that handles the charging and output. There are newer LED beacons that use less power. Radio tower obstruction lights are normally omnidirectional (the unidirectional ones are typically strobes, which won’t work for this), but I actually want focused light. Additionally, the light may not still be bright enough to be as visible as I want at 35 miles. I may need a parabolic reflector and/or a fresnel lens, and it may have to be custom designed and fabricated.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-brains&quot;&gt;2. The Brains&lt;/h3&gt;
+
+&lt;p&gt;The light will be turned on and off using a solid state relay controlled by a cellular-radio enabled IOT board. I’ve selected the &lt;a href=&quot;https://store.particle.io/collections/electron&quot;&gt;Particle Electron&lt;/a&gt; because it’s more plug and play than using other things e.g. the Raspberry Pi for this application. It’ll provide some resiliency, for example if it crashes or if the power dies temporarily, afterwards it’ll come on and connect to the internet and the server again automatically. This would take work to configure with a R-pi. It’s also probably lower power. It has a pretty active community and core libraries for a TCP client, which I will use.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-signal&quot;&gt;3. The Signal&lt;/h3&gt;
+
+&lt;p&gt;Cell data. Woah boy, it’s weird. There are a lot of things we take for granted when we’re on wifi that we can’t with cellular data. You can see the cracks.&lt;/p&gt;
+
+&lt;p&gt;Particle actually offers cellular data as a service with an API, but I’ll be using too much data at the rate I’m sending to be able to take advantage of it.&lt;/p&gt;
+
+&lt;p&gt;Some napkin math about how much data I’ll need:
+I’ll need send a number describing the loudness of someone’s voice from the client to the server at around 25 times per second to achieve a time-resolution similar to video. Maybe as little as 10 times per second will be acceptable, but I won’t know until I prototype. I think my transmission unit might be around 128 bytes, but not sure on that either.&lt;/p&gt;
+
+&lt;p&gt;128 bytes x 25/sec x 60 sec x 60 min x 16 hours max = 184 megabytes per day, maybe 5-6 gb per month maximum.&lt;/p&gt;
+
+&lt;p&gt;There are two major cellular radio systems: CDMA and GSM. The Particle Electron only works with GSM providers. I’m in the USA, Verizon and Sprint are out because they’re CDMA, and AT&amp;amp;T and T-Mobile are the major GSM options. Rates for IoT device tiers from these carriers can be hard to understand and not that great of a deal I’ve found. At this point I’m going with a different carrier called &lt;a href=&quot;https://ting.com/&quot;&gt;Ting&lt;/a&gt;, which is made for IoT, and is a little more pay-as-you-go which is especially great for development.&lt;/p&gt;
+
+&lt;p&gt;A couple of other hurdles with cellular: latency and estimating signal strength. Latency will be explored in a hardware prototype soon. For signal strength, there’s a handy tool called &lt;a href=&quot;https://opensignal.com/&quot;&gt;OpenSignal&lt;/a&gt; that crowd sources signal strength readings across the map, and the cell providers have maps of their own you can download too. I’ll get a big cell antenna to boost the signal, as a just-in-case measure.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-front-end&quot;&gt;4. The Front End&lt;/h3&gt;
+
+&lt;p&gt;Anyone in the Seattle are should be able to go to a url on a smartphone and begin controlling the light with their voice. The best way to send this type of streaming data is with websockets. I won’t send audio itself, because it’s bad for privacy and I don’t really need that high of resolution anyway. I’ll be essentially doing a lowpass filter in the browser, and sending a number representing the volume at a rate of 10 to 25 times per second, most likely. I’d like to keep the interface very minimal.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-back-end&quot;&gt;5. The Back End&lt;/h3&gt;
+
+&lt;p&gt;This is going to be a real-time app that revolves around streaming data from many clients simultaneously. There are several websocket libraries that have better performance than socket.io, but actually for the number of users that will be using the app at once (maybe 100 max?) performance is not that important, and socket.io seems like the best choice for ease of development.&lt;/p&gt;
+
+&lt;p&gt;There will need to be some logic for mixing all incoming signals. I’ll write more on this later, but for now think of it as summing all incoming signals up to a certain limit, with some additional dynamic behavior when there are more than 5-10 simultaneous users. Then, the backend will pass the final output down to the Particle board via TCP.&lt;/p&gt;
+
+&lt;p&gt;At least in the beginning I’ll need to set up a system for logging and a dashboard to see the data and perform some administration actions. There are 3 reasons for this: for prototyping and iterative design in early stages; for documentation of how people used it after the project is over; and maybe even for managing bad actors while the piece is in play.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;land-use-logistics-design&quot;&gt;Land Use, Logistics, Design&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+There are some non-technical challenges to executing this piece too.&lt;/p&gt;
+
+&lt;p&gt;Selecting a site. Since I don’t live in Seattle anymore, I’ve used google maps to stake out a lot of the land surrounding the city. When I was visiting in October, I went on a hike in one potential location, and confirmed that it’s possible to see radio tower lights from more than 35 miles away.&lt;/p&gt;
+
+&lt;p&gt;I also need permission. To the east, the land covering the nearby Cascades is managed by a corporation. To the west, it’s managed by the National Forest Service. Using NFS land is highly regulated and there’s a protracted process to gain access, so it would be much easier to just send the corporation a letter. Anyway, NFS actually requires that you pursue non-public options for your use first. To ask for permission, I might think about some creative options like a video pitch or even something more out there. The work of &lt;a href=&quot;http://christojeanneclaude.net/&quot;&gt;Christo and Jeanne-Claude&lt;/a&gt; art required a lot of securing agreements with public agencies and private property owners, and the process of getting permission even became part of the work. It’s a different story when you are an early career unknown artist, though.&lt;/p&gt;
+
+&lt;p&gt;Either way, I may be required to get a Professional Engineer to look over my light’s specs and make sure it’s not a fire hazard. Even if it’s not legally required, I might do it anyway because it will make me and probably my hosts feel better. PE’s are often engaged for public art projects. I need to find one though, and I’m not sure the best way to go about that. Been following some word of mouth leads with other artists.&lt;/p&gt;
+
+&lt;p&gt;Also, I need to check that this light will be legal by FAA standards. It’s hard to understand if it is just by reading their regulations, because my use-case is so atypical – flashing white medium intensity at night. Usually it’s flashing red at night, or flashing white high intensity during the day. This may be allowed by I may have to make accommodations, for example I may have to put on the top of a ridge instead of on the side, or even put it on a radio tower, or even change the color to red.&lt;/p&gt;
+
+&lt;p&gt;Setup is going to require flying from NYC to Seattle, probably doing some fabrication there, and then getting a team of people to help install. I may have to secure some space to do staging/testing. I’ll have to rent a truck and maybe get permits to access land. Then, I’ll also want to take footage of setting the project up to use in documentation/ video version of the work, and take footage of people using it while I’m there. So I’ll need to rent video equipment and do some storyboarding to plan what my final project ideal would be.&lt;/p&gt;
+
+&lt;p&gt;Publicity. The social dimension of this piece is really important to me. I’m inspired by the &lt;a href=&quot;http://www.allriseseattle.org/robertmontgomery/&quot;&gt;All Rise&lt;/a&gt; project and the confusion it caused. People didn’t really know what to make of it at first, and there was some question about who was behind it, what their motives are, or even was it art. I would like this piece to slowly catch on in the same way. I may flyer in places that have line of sight to break out of my social bubble without using press. Flyers will have to be designed carefully because of the type of messaging/framing they give the piece.&lt;/p&gt;
+
+&lt;p&gt;The front end design will have to be carefully considered too. It’ll be really minimal, and dark so it doesn’t ruin people’s night vision.&lt;/p&gt;
+
+&lt;p&gt;And there’s another problem that’s a crossover between tech and non-tech. Mitigating abuse. There might be bad actors, it’ll be possible to troll the game and make it unusable for other people. I’ll need to set up some quick and dirty defenses against people gaming it, as well as using it from other locations outside of Seattle, but I don’t think I’ll ever be able to totally protect it. Also what I have in mind will be really time intensive – like might take just as much time as writing the rest of the app, so I may have to work on it once the thing is already launched, hoping it won’t go viral and attract “hackers” right away.&lt;/p&gt;
+
+&lt;p&gt;Alright, that was a long summary. In upcoming posts I’ll examine some of the individual components more in-depth!&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 09 Dec 2016 00:00:00 -0500</pubDate>
+        <link>https://josh-peterson.com/blog/light-progress-1/</link>
+        <guid isPermaLink="true">https://josh-peterson.com/blog/light-progress-1/</guid>
+        
+        
+        <category>Work-in-Progress</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome</title>
+        <description>&lt;p&gt;I’ve been thinking about the ways media artists can share technical knowledge, process, and theory with each other. If this was done more, it’s possible it’ll lead to more critical art and more meaningful experiences.&lt;/p&gt;
+
+&lt;p&gt;I was mulling this over, and then I saw that New American Public Art, a studio out of Boston that makes interactive pieces, created a &lt;a href=&quot;https://www.patreon.com/NAPA/posts&quot;&gt;Patreon&lt;/a&gt; where they’re open sourcing a lot of information from their work. I’ve decided to take the plunge.&lt;/p&gt;
+
+&lt;p&gt;I’ll be using this space to share write-ups about projects in progress, as well as criticism of other work I see around me. ✌️&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Nov 2016 00:00:00 -0500</pubDate>
+        <link>https://josh-peterson.com/blog/welcome/</link>
+        <guid isPermaLink="true">https://josh-peterson.com/blog/welcome/</guid>
+        
+        
+        <category>News</category>
+        
+      </item>
+    
+  </channel>
+</rss>

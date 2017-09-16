@@ -2,7 +2,7 @@
  * Body
  */
 body {
-  background-color: $color-grey;
+  // background-color: $color-grey;
 }
 
 /**
@@ -57,11 +57,13 @@ section {
         left: 0;
 
         height: 100%;
-        width: 45%;
+        // width: 45%; 
+        width: 100%; 
+
       }
 
       &:after {
-        @extend %overlay;
+        // @extend %overlay;
       }
     }
 

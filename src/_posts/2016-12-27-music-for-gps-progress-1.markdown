@@ -5,8 +5,8 @@ date: 2017-01-04
 categories:
   - Work-in-Progress
 description: 
-image: "http://josh-peterson.com/assets/img/music-for-gps-hero-large.jpg"
-image-sm: "http://josh-peterson.com/assets/img/music-for-gps-hero-small.jpg"
+image: "https://josh-peterson.com/assets/img/music-for-gps-hero-large.jpg"
+image-sm: "https://josh-peterson.com/assets/img/music-for-gps-hero-small.jpg"
 excerpt: "Location-based generative music promises a different kind of augmented reality."
 mast-back: "#e50200"
 mast-date: "#e50200"

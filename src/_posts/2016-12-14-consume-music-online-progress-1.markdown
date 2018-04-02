@@ -11,8 +11,6 @@ excerpt: "Like Snapchat, but for the entirety of all music in existence."
 
 ---
 
-<div class="video-container"><iframe src="https://player.vimeo.com/video/174049474?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
 <p class="normal-size">I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:</p>
   
 >*Turn up your speakers. You are now listening to a sound that will never be heard again.*

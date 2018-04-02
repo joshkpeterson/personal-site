@@ -3,6 +3,11 @@
  * On the Blog page for posts and categories
  */
 
+
+// remove categories and posts tabs
+.header--nav{display:none}.footer__archive{visibility:hidden}
+
+
 header {
   background: white;
   width: auto;

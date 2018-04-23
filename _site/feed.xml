@@ -5,8 +5,8 @@
     <description>Media Art</description>
     <link>https://josh-peterson.com/</link>
     <atom:link href="https://josh-peterson.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Mar 2017 11:10:17 -0400</pubDate>
-    <lastBuildDate>Thu, 23 Mar 2017 11:10:17 -0400</lastBuildDate>
+    <pubDate>Sun, 01 Apr 2018 22:46:16 -0400</pubDate>
+    <lastBuildDate>Sun, 01 Apr 2018 22:46:16 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -223,9 +223,7 @@ Out of all the libraries I looked at, it had the most features for making &lt;em
     
       <item>
         <title>consumemusic.online</title>
-        <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/174049474?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:&lt;/p&gt;
+        <description>&lt;p class=&quot;normal-size&quot;&gt;I’m working on a site. The URL is http://consumemusic.online. When you go to it, you’ll read something like this:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;Turn up your speakers. You are now listening to a sound that will never be heard again.&lt;/em&gt;&lt;/p&gt;

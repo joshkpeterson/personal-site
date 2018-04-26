@@ -5,8 +5,8 @@
     <description>Media Art</description>
     <link>https://josh-peterson.com/</link>
     <atom:link href="https://josh-peterson.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Apr 2018 12:19:08 -0400</pubDate>
-    <lastBuildDate>Mon, 23 Apr 2018 12:19:08 -0400</lastBuildDate>
+    <pubDate>Mon, 23 Apr 2018 12:48:21 -0400</pubDate>
+    <lastBuildDate>Mon, 23 Apr 2018 12:48:21 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -25,6 +25,35 @@
         <pubDate>Mon, 23 Apr 2018 00:00:00 -0400</pubDate>
         <link>https://josh-peterson.com/blog/volo/</link>
         <guid isPermaLink="true">https://josh-peterson.com/blog/volo/</guid>
+        
+        
+        <category>Portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Interning at HUSH</title>
+        <description>&lt;p&gt;I just finished a 6-month Creative Tech internship at HUSH,&lt;/p&gt;
+
+&lt;p&gt;where I got to flex a lot of different muscles on a bunch of projects:  🌀 I was 1 of 2 developers on an AR app, made with Unity. It was part of a package with an accompanying physical sculpture sent out to clients. You can read more about it here, or download on the app store and try it yourself!&lt;/p&gt;
+
+&lt;p&gt;🌴 Circuit soldering and on-site installation for an epic interactive piece for Chobani at Grand Central Station.&lt;/p&gt;
+
+&lt;p&gt;🎲 Miscellaneous scripting in js and python to wrangle datasets and thousands of image assets for Facebook and Capital One installations, which had generative data visualizations.&lt;/p&gt;
+
+&lt;p&gt;📊 Backend web development in python/flask for a Facebook installation’s CMS. Frontend web development on an analytics dashboard with charts.&lt;/p&gt;
+
+&lt;p&gt;👨‍🎨 Concept generation, visual + interaction design, and hardware prototyping for an installation at Instagram’s new SF office.&lt;/p&gt;
+
+&lt;p&gt;🎨 Design for various pitches.&lt;/p&gt;
+
+&lt;p&gt;I’m continuing to freelance at HUSH for now. Ask me what I’m up to!&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;max-width: 400px; margin: 0 auto&quot; src=&quot;/assets/img/music-for-gps-joanne-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Apr 2018 00:00:00 -0400</pubDate>
+        <link>https://josh-peterson.com/blog/hush-internship/</link>
+        <guid isPermaLink="true">https://josh-peterson.com/blog/hush-internship/</guid>
         
         
         <category>Portfolio</category>

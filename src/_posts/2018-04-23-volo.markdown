@@ -5,8 +5,8 @@ date: 2018-04-23
 categories:
   - Portfolio
 description: 
-image: https://josh-peterson.com/assets/img/volo-shoot.jpg
-image-sm: https://josh-peterson.com/assets/img/volo-shoot.jpg
+image: https://josh-peterson.com/assets/img/hush/volo-shoot.jpg
+image-sm: https://josh-peterson.com/assets/img/hush/volo-shoot.jpg
 excerpt: "A digital + physical augmented reality experience"
 
 ---
@@ -16,7 +16,9 @@ Every year HUSH does a holiday project where they mail something fun to hundreds
 
 This year I got to help with that, and we made an augmented reality game. We thought it would be cool to explore how the AR component could play off of physical objects. We made two different versions - one large scale with a giant 13 foot sculpture in a gallery, and then a small scale sculpture that was mailed out and could be assembled on your desk.  
 
-I was one of two technologists that did the Unity development. Users draw spiral-shaped “wishes” which then fly off and join other people’s wishes in a “wishing well” that’s positioned above the physical sculpture.  
+I was one of two technologists that did all of the development in Unity for this project. Users draw spiral-shaped “wishes” which then fly off and join other people’s wishes in a “wishing well” that’s positioned above the physical sculpture.
+
+<img style="max-width: 320px; margin: 0 auto" src="/assets/img/hush/volo-sample.gif" alt="">  
 
 Check out the case study video below, or <a href="https://itunes.apple.com/us/app/volo-wish/id1339262471">download the app from the App Store</a> and try it out!
 

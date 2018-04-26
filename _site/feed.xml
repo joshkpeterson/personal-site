@@ -5,8 +5,8 @@
     <description>Media Art</description>
     <link>https://josh-peterson.com/</link>
     <atom:link href="https://josh-peterson.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Apr 2018 12:48:21 -0400</pubDate>
-    <lastBuildDate>Mon, 23 Apr 2018 12:48:21 -0400</lastBuildDate>
+    <pubDate>Thu, 26 Apr 2018 13:12:53 -0400</pubDate>
+    <lastBuildDate>Thu, 26 Apr 2018 13:12:53 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -15,7 +15,9 @@
 
 &lt;p&gt;This year I got to help with that, and we made an augmented reality game. We thought it would be cool to explore how the AR component could play off of physical objects. We made two different versions - one large scale with a giant 13 foot sculpture in a gallery, and then a small scale sculpture that was mailed out and could be assembled on your desk.  &lt;/p&gt;
 
-&lt;p&gt;I was one of two technologists that did the Unity development. Users draw spiral-shaped “wishes” which then fly off and join other people’s wishes in a “wishing well” that’s positioned above the physical sculpture.  &lt;/p&gt;
+&lt;p&gt;I was one of two technologists that did all of the development in Unity for this project. Users draw spiral-shaped “wishes” which then fly off and join other people’s wishes in a “wishing well” that’s positioned above the physical sculpture.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;max-width: 320px; margin: 0 auto&quot; src=&quot;/assets/img/hush/volo-sample.gif&quot; alt=&quot;&quot; /&gt;  &lt;/p&gt;
 
 &lt;p&gt;Check out the case study video below, or &lt;a href=&quot;https://itunes.apple.com/us/app/volo-wish/id1339262471&quot;&gt;download the app from the App Store&lt;/a&gt; and try it out!&lt;/p&gt;
 
@@ -32,24 +34,26 @@
       </item>
     
       <item>
-        <title>Interning at HUSH</title>
-        <description>&lt;p&gt;I just finished a 6-month Creative Tech internship at HUSH,&lt;/p&gt;
+        <title>Work @ HUSH Studios</title>
+        <description>&lt;p&gt;I just finished a 6-month Creative Tech internship at HUSH, where I got to flex a lot of different muscles on various projects:  &lt;/p&gt;
 
-&lt;p&gt;where I got to flex a lot of different muscles on a bunch of projects:  🌀 I was 1 of 2 developers on an AR app, made with Unity. It was part of a package with an accompanying physical sculpture sent out to clients. You can read more about it here, or download on the app store and try it yourself!&lt;/p&gt;
+&lt;p&gt;🌀  I was 1 of 2 developers on an AR app, made with Unity. It was part of a package with an accompanying physical sculpture sent out to clients. You can read more about it here, or download on the app store and try it yourself!&lt;/p&gt;
 
-&lt;p&gt;🌴 Circuit soldering and on-site installation for an epic interactive piece for Chobani at Grand Central Station.&lt;/p&gt;
+&lt;p&gt;🌴  Circuit soldering and on-site installation for an epic interactive piece for Chobani at Grand Central Station.&lt;/p&gt;
 
-&lt;p&gt;🎲 Miscellaneous scripting in js and python to wrangle datasets and thousands of image assets for Facebook and Capital One installations, which had generative data visualizations.&lt;/p&gt;
+&lt;p&gt;🎲  Miscellaneous scripting in js and python to wrangle datasets and thousands of image assets for Facebook and Capital One installations, which had generative data visualizations.&lt;/p&gt;
 
-&lt;p&gt;📊 Backend web development in python/flask for a Facebook installation’s CMS. Frontend web development on an analytics dashboard with charts.&lt;/p&gt;
+&lt;p&gt;📊  Backend web development in python/flask for a Facebook installation’s CMS. Frontend web development on an analytics dashboard with charts.&lt;/p&gt;
 
-&lt;p&gt;👨‍🎨 Concept generation, visual + interaction design, and hardware prototyping for an installation at Instagram’s new SF office.&lt;/p&gt;
+&lt;p&gt;👨‍🎨  Concept generation, visual + interaction design, and hardware prototyping for an installation at Instagram’s new SF office.&lt;/p&gt;
 
-&lt;p&gt;🎨 Design for various pitches.&lt;/p&gt;
+&lt;p&gt;🎨  Design for various pitches.&lt;/p&gt;
 
 &lt;p&gt;I’m continuing to freelance at HUSH for now. Ask me what I’m up to!&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&quot;max-width: 400px; margin: 0 auto&quot; src=&quot;/assets/img/music-for-gps-joanne-screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;max-width: 1280px; margin: 0 auto&quot; src=&quot;/assets/img/hush/chobani.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Apr 2018 00:00:00 -0400</pubDate>
         <link>https://josh-peterson.com/blog/hush-internship/</link>
